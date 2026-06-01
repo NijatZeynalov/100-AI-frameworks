@@ -4,7 +4,6 @@
 - Currently selected: 36
 - Pending: 36
 - Tested: 0
-- Published: 0
 - Categories covered: 7
 
 | # | Framework | Category | Status | Planned project | Official Docs | GitHub | Experiment Page |

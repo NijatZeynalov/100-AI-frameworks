@@ -6,7 +6,7 @@ Measure real-world recommendation and personalization performance through practi
 
 ## Problem Space
 
-Ranking, feature freshness, recommendation backends, and retrieval + ranking personalization.
+Ranking, feature freshness, recommendation backends, and retrieval plus ranking personalization.
 
 ## Frameworks
 
