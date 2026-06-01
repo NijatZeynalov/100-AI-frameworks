@@ -10,7 +10,7 @@ RAG orchestration, PDF-heavy ingestion, citations, and second-brain style retrie
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 029 | Dify | Pending | Internal company policy assistant with uploaded PDFs, workflow routing, and citation-backed answers. | [Experiment](../experiments/029-dify.md) |
 | 030 | RAGFlow | Pending | Financial report QA system that answers from PDFs with tables and citations. | [Experiment](../experiments/030-ragflow.md) |

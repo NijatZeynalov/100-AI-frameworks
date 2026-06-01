@@ -10,6 +10,6 @@ Reading order, table/formula extraction, layout-heavy PDFs, and document intelli
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 013 | olmOCR | Pending | Dataset builder that converts scanned PDFs into clean training/eval samples for document VLMs. | [Experiment](../experiments/013-olmocr.md) |

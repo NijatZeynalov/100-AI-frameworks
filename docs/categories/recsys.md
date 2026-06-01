@@ -2,7 +2,7 @@
 
 ## Goal
 
-Measure real-world recommendation and personalization performance in mini-builds.
+Measure real-world recommendation and personalization performance through practical projects.
 
 ## Problem Space
 
@@ -10,7 +10,7 @@ Ranking, feature freshness, recommendation backends, and retrieval + ranking per
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 022 | Metarank | Pending | Personalized product search reranker using clicks, views, and purchases. | [Experiment](../experiments/022-metarank.md) |
 | 023 | Gorse | Pending | GitHub repository recommender based on stars, topics, and user interactions. | [Experiment](../experiments/023-gorse.md) |

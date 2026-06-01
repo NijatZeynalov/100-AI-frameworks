@@ -3,6 +3,12 @@ import path from "node:path";
 
 const repoRoot = process.cwd();
 const sourcePath = path.resolve(repoRoot, "..", "experiments.txt");
+const coverImageSourcePath = path.resolve(
+  repoRoot,
+  "..",
+  "ChatGPT Image Jun 1, 2026, 01_08_31 PM.png",
+);
+const coverImageTargetPath = path.join(repoRoot, "docs", "assets", "lab-cover.png");
 
 const CATEGORY_META = {
   "agentic-ai": {
@@ -35,7 +41,7 @@ const CATEGORY_META = {
   },
   recsys: {
     title: "Personalization & Recommendation Systems",
-    goal: "Measure real-world recommendation and personalization performance in mini-builds.",
+    goal: "Measure real-world recommendation and personalization performance through practical projects.",
     problems:
       "Ranking, feature freshness, recommendation backends, and retrieval + ranking personalization.",
     short: "Ranking, recommendation engines, and feature stores.",
@@ -195,6 +201,12 @@ function writeFile(filePath, content) {
   fs.writeFileSync(filePath, content, "utf8");
 }
 
+function copyIfExists(source, target) {
+  if (!fs.existsSync(source)) return;
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.copyFileSync(source, target);
+}
+
 const raw = fs.readFileSync(sourcePath, "utf8");
 const chunks = extractObjectChunks(raw);
 const parsed = chunks.map(parseObjectChunk).filter((x) => x && x.name);
@@ -261,90 +273,35 @@ writeFile(
   path.join(repoRoot, "data", "frameworks.json"),
   `${JSON.stringify(normalized, null, 2)}\n`,
 );
+copyIfExists(coverImageSourcePath, coverImageTargetPath);
 
 const readme = `# #100AI Frameworks Lab
 
-I am testing 100 open-source AI frameworks through practical mini-builds. For each framework, I document the problem it solves, setup experience, production-readiness notes, and a final engineering verdict.
+![#100AI Frameworks Lab](docs/assets/lab-cover.png)
 
-## What This Repo Is
-
-This repository is a public AI engineering lab. The first version starts with selected frameworks in Pending status. No experiment results are fabricated.
-
-## Current Progress
-
-- Target: 100 frameworks
-- Currently selected: ${total}
-- Pending: ${total}
-- Tested: 0
-- Published: 0
-- Categories covered: ${categoryCount}
-
-## Categories
-
-- Agentic AI & Agent Memory
-- Structured Output, Guardrails & Evaluation
-- VLM, OCR & Document Understanding
-- LoRA, Fine-tuning & Adapter Infrastructure
-- Personalization & Recommendation Systems
-- Knowledge Base, RAG & Document Intelligence
-- LLM Inference & Serving
-
-## Repository Structure
-
-\`\`\`
-docs/                 # Public documentation pages
-data/frameworks.json  # Normalized framework list parsed from experiments.txt
-experiments/          # Per-framework experiment workspaces
-templates/            # Reusable templates
-assets/               # Shared images/diagrams
-scripts/              # Generation helpers
-\`\`\`
-
-## Status Legend
-
-- Pending: Selected but not tested yet
-- Scanned: Docs/GitHub reviewed
-- Installed: Installed locally or in cloud
-- Built: Mini project implemented
-- Tested: Results measured
-- Published: Shared on LinkedIn/newsletter
-- Skipped: Removed after review
-
-## How Experiments Are Documented
-
-Each framework has:
-
-1. A docs page in \`docs/experiments/\`
-2. An experiment folder in \`experiments/{slug}/\`
-3. A placeholder \`results.json\` with null values
-
-## Run Docs Locally
-
-\`\`\`bash
-pip install mkdocs
-mkdocs serve
-\`\`\`
-
-Then open \`http://127.0.0.1:8000\`.
-
-## Follow Along
-
-This lab is updated weekly with new experiment notes and scorecards.
-
-LinkedIn updates: TBD
+I am experimenting with 100 open-source AI frameworks through practical, real project-based implementations. For each framework, I document what I build, how the setup feels, where the tool is useful, and whether it looks ready for serious engineering work.
 `;
 writeFile(path.join(repoRoot, "README.md"), readme);
 
 const docsIndex = `# #100AI Frameworks Lab
 
 <section class="lab-hero">
-  <div class="lab-kicker">Public AI Engineering Lab</div>
-  <h1>#100AI Frameworks Lab</h1>
-  <p>Testing 100 open-source AI frameworks through practical mini-builds, scorecards, and production-focused notes.</p>
-  <div class="lab-actions">
-    <a href="progress-dashboard/" class="lab-button primary">View dashboard</a>
-    <a href="experiments/" class="lab-button">Browse experiments</a>
+  <div class="lab-hero-copy">
+    <div class="lab-kicker">Public AI Engineering Lab</div>
+    <h1>#100AI Frameworks Lab</h1>
+    <p>I am testing 100 open-source AI frameworks through practical, real project-based experiments and writing engineering notes from the process.</p>
+    <div class="lab-actions">
+      <a href="progress-dashboard/" class="lab-button primary">View dashboard</a>
+      <a href="experiments/" class="lab-button">Browse experiments</a>
+      <a href="https://www.linkedin.com/in/nijat-zeynalov-064163142/" class="lab-button linkedin-contact" aria-label="Contact on LinkedIn">
+        <span class="linkedin-mark">in</span>
+        Contact
+      </a>
+    </div>
   </div>
+  <figure class="lab-hero-media">
+    <img src="assets/lab-cover.png" alt="#100AI Frameworks Lab visual identity" />
+  </figure>
 </section>
 
 <section class="metric-grid">
@@ -374,13 +331,13 @@ const docsIndex = `# #100AI Frameworks Lab
 <section class="lab-section">
   <div class="section-heading">
     <p>Workflow</p>
-    <h2>Each framework starts clean.</h2>
+    <h2>Each framework becomes a real project note.</h2>
   </div>
   <div class="flow-grid">
-    <article><span>01</span><h3>Select</h3><p>Choose a practical framework and assign it to a category.</p></article>
-    <article><span>02</span><h3>Build</h3><p>Create a small experiment with reproducible notes.</p></article>
-    <article><span>03</span><h3>Score</h3><p>Document setup, DX, output quality, and production readiness.</p></article>
-    <article><span>04</span><h3>Publish</h3><p>Share the short version on LinkedIn and keep full notes here.</p></article>
+    <article><span>01</span><h3>Select</h3><p>Choose a framework with a clear engineering use case.</p></article>
+    <article><span>02</span><h3>Build</h3><p>Use it inside a practical project instead of reviewing it in isolation.</p></article>
+    <article><span>03</span><h3>Document</h3><p>Write notes on setup, developer experience, output quality, and tradeoffs.</p></article>
+    <article><span>04</span><h3>Decide</h3><p>Summarize where the framework is useful and what I would trust it for.</p></article>
   </div>
 </section>
 `;
@@ -405,7 +362,7 @@ const progress = `# Progress Dashboard
 - Published: 0
 - Categories covered: ${categoryCount}
 
-| # | Framework | Category | Status | Planned mini-build | Official Docs | GitHub | Experiment Page |
+| # | Framework | Category | Status | Planned project | Official Docs | GitHub | Experiment Page |
 |---|---|---|---|---|---|---|---|
 ${dashboardRows}
 `;
@@ -433,7 +390,7 @@ ${meta.problems}
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 ${rows}
 `;
@@ -449,8 +406,7 @@ for (const [week, title] of [
 - Status: Planned
 - Theme: TBD
 - Frameworks planned: TBD
-- LinkedIn posts: Not published yet
-- Newsletter: Not published yet
+- Public notes: Not written yet
 
 ## Notes
 
@@ -490,7 +446,7 @@ TBD
 
 TBD
 
-## Planned mini-build
+## Planned project
 
 TBD
 
@@ -528,7 +484,6 @@ This experiment has not been run yet. Status: Pending.
 
 - Official docs: TBD
 - GitHub: TBD
-- LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/${f.slug})
 
@@ -607,7 +562,7 @@ TBD
 
 TBD
 
-## Planned mini-build
+## Planned project
 
 TBD
 
@@ -645,7 +600,6 @@ This experiment has not been run yet. Status: Pending.
 
 - Official docs: TBD
 - GitHub: TBD
-- LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
 - Experiment folder: GitHub folder link
 

@@ -10,7 +10,7 @@ Serving architecture, KV-cache reuse, high-throughput inference, and low-bit dep
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 033 | RTP-LLM | Pending | High-throughput Qwen serving benchmark with RTP-LLM. | [Experiment](../experiments/033-rtp-llm.md) |
 | 034 | Mooncake | Pending | Repeated long-context workload üçün KV-cache reuse demo qur. | [Experiment](../experiments/034-mooncake.md) |

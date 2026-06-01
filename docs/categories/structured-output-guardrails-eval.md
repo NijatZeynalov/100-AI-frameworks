@@ -10,7 +10,7 @@ Schema-first outputs, input/output safety checks, red-team style testing, and pr
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 011 | BAML | Pending | PDF invoice extraction workflow with typed LLM functions and testable schemas. | [Experiment](../experiments/011-baml.md) |
 | 012 | Guardrails AI | Pending | Healthcare intake assistant with PII checks, safety filters, and structured output validation. | [Experiment](../experiments/012-guardrails-ai.md) |

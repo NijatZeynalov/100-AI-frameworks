@@ -10,7 +10,7 @@ Persistent memory, browser actions, temporal context graphs, and automation loop
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 001 | LangMem | Pending | Personal AI career coach that remembers user goals, preferred roles, rejected companies, and interview feedback. | [Experiment](../experiments/001-langmem.md) |
 | 002 | Mem0 | Pending | Customer support assistant that remembers customer preferences, prior tickets, and unresolved issues. | [Experiment](../experiments/002-mem0.md) |

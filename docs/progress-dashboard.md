@@ -7,7 +7,7 @@
 - Published: 0
 - Categories covered: 7
 
-| # | Framework | Category | Status | Planned mini-build | Official Docs | GitHub | Experiment Page |
+| # | Framework | Category | Status | Planned project | Official Docs | GitHub | Experiment Page |
 |---|---|---|---|---|---|---|---|
 | 001 | LangMem | Agentic AI & Agent Memory | Pending | Personal AI career coach that remembers user goals, preferred roles, rejected companies, and interview feedback. | [Official](https://langchain-ai.github.io/langmem/) | [GitHub](https://github.com/langchain-ai/langmem) | [Page](experiments/001-langmem.md) |
 | 002 | Mem0 | Agentic AI & Agent Memory | Pending | Customer support assistant that remembers customer preferences, prior tickets, and unresolved issues. | [Official](https://docs.mem0.ai/introduction) | [GitHub](https://github.com/mem0ai/mem0) | [Page](experiments/002-mem0.md) |

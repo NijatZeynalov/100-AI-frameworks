@@ -20,7 +20,7 @@ TBD
 
 TBD
 
-## Planned mini-build
+## Planned project
 
 TBD
 
@@ -58,7 +58,6 @@ This experiment has not been run yet. Status: Pending.
 
 - Official docs: TBD
 - GitHub: TBD
-- LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/035-bitnet-cpp)
 

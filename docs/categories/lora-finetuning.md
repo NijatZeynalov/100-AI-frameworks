@@ -10,7 +10,7 @@ LoRA variants, multi-adapter training, adapter serving, and diffusion fine-tunin
 
 ## Frameworks
 
-| # | Framework | Status | Planned mini-build | Docs Page |
+| # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
 | 014 | ModelScope ms-swift | Pending | Eyni dataset üzərində LoRA vs DoRA vs LongLoRA müqayisəsi qur. | [Experiment](../experiments/014-modelscope-ms-swift.md) |
 | 015 | Axolotl | Pending | MoE model üzərində yalnız expert weights üçün LoRA fine-tuning təcrübəsi et. | [Experiment](../experiments/015-axolotl.md) |
