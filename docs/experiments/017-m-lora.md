@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Çoxlu domain adapter train etmək istəyəndə GPU utilization və latency problemi.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-Eyni base model üçün 3 adapter train et: legal, finance, customer support.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://ids-lab-asia.github.io/projects/m-LoRA/](https://ids-lab-asia.github.io/projects/m-LoRA/)
-- GitHub: [https://github.com/small-thinking/multi-lora-fine-tune](https://github.com/small-thinking/multi-lora-fine-tune)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/017-m-lora/](../../experiments/017-m-lora/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/017-m-lora)
 
 ## Notes
 

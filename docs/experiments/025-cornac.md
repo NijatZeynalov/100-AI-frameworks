@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Text, image və social features-i recommendation modelə daxil etmək çətindir.
+TBD
 
 ## What it does
 
-Multimodal recommender systems üçün comparative framework verir.
+TBD
 
 ## Planned mini-build
 
-Fashion recommender using product images, descriptions, and user interactions.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://cornac.readthedocs.io/](https://cornac.readthedocs.io/)
-- GitHub: [https://github.com/PreferredAI/cornac](https://github.com/PreferredAI/cornac)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/025-cornac/](../../experiments/025-cornac/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/025-cornac)
 
 ## Notes
 

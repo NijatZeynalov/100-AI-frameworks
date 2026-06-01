@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-RAG sistemlerinde melumat deyishdikce knowledge graph-in yeniden batch rebuild teleb etmesi
+TBD
 
 ## What it does
 
-Real-time temporal context graph qurur, yeni faktlari ve relationship deyishikliklerini incremental saxlayir.
+TBD
 
 ## Planned mini-build
 
-Meeting intelligence system that tracks how project decisions change over time.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://help.getzep.com/graphiti/getting-started/welcome](https://help.getzep.com/graphiti/getting-started/welcome)
-- GitHub: [https://github.com/getzep/graphiti](https://github.com/getzep/graphiti)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/004-graphiti/](../../experiments/004-graphiti/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/004-graphiti)
 
 ## Notes
 

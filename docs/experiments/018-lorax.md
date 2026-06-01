@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Hər fine-tuned model üçün ayrıca deployment xərci.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-3 LoRA adapteri train et və LoRAX ilə dynamic adapter routing demo qur.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://predibase.github.io/lorax/](https://predibase.github.io/lorax/)
-- GitHub: [https://github.com/predibase/lorax](https://github.com/predibase/lorax)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/018-lorax/](../../experiments/018-lorax/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/018-lorax)
 
 ## Notes
 

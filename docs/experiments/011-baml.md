@@ -14,19 +14,19 @@ Structured Output, Guardrails & Evaluation
 
 ## Problem
 
-Promptlari string kimi idare etmek, versioning ve structured output reliability problemi
+TBD
 
 ## What it does
 
-Prompt engineering-i schema engineering-e ceviren DSL ile reliable LLM functions qurur.
+TBD
 
 ## Planned mini-build
 
-PDF invoice extraction workflow with typed LLM functions and testable schemas.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Structured Output, Guardrails & Evaluation track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.boundaryml.com/](https://docs.boundaryml.com/)
-- GitHub: [https://github.com/BoundaryML/baml](https://github.com/BoundaryML/baml)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/011-baml/](../../experiments/011-baml/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/011-baml)
 
 ## Notes
 

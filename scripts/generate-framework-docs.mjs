@@ -337,25 +337,52 @@ writeFile(path.join(repoRoot, "README.md"), readme);
 
 const docsIndex = `# #100AI Frameworks Lab
 
-Public AI Engineering Lab
+<section class="lab-hero">
+  <div class="lab-kicker">Public AI Engineering Lab</div>
+  <h1>#100AI Frameworks Lab</h1>
+  <p>Testing 100 open-source AI frameworks through practical mini-builds, scorecards, and production-focused notes.</p>
+  <div class="lab-actions">
+    <a href="progress-dashboard/" class="lab-button primary">View dashboard</a>
+    <a href="experiments/" class="lab-button">Browse experiments</a>
+  </div>
+</section>
 
-Testing 100 open-source AI frameworks through practical mini-builds, scorecards, and production-focused notes.
+<section class="metric-grid">
+  <article><strong>100</strong><span>target frameworks</span></article>
+  <article><strong>${total}</strong><span>selected</span></article>
+  <article><strong>${total}</strong><span>pending</span></article>
+  <article><strong>0</strong><span>tested</span></article>
+  <article><strong>${categoryCount}</strong><span>categories</span></article>
+</section>
 
-## Quick Stats
+<section class="lab-section">
+  <div class="section-heading">
+    <p>Focus areas</p>
+    <h2>Organized by engineering problem, not hype.</h2>
+  </div>
+  <div class="category-grid">
+    <a href="categories/agentic-ai/">Agentic AI & Memory</a>
+    <a href="categories/knowledge-base/">Knowledge Base & RAG</a>
+    <a href="categories/recsys/">Recommendation Systems</a>
+    <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
+    <a href="categories/vlm-document-ai/">Document AI</a>
+    <a href="categories/structured-output-guardrails-eval/">Guardrails & Eval</a>
+    <a href="categories/llm-inference/">LLM Inference</a>
+  </div>
+</section>
 
-- Target frameworks: 100
-- Selected now: ${total}
-- Pending: ${total}
-- Tested: 0
-- Published: 0
-- Categories: ${categoryCount}
-
-## Start Here
-
-- [Progress Dashboard](progress-dashboard.md)
-- [Categories](categories/agentic-ai.md)
-- [Experiments Index](experiments/index.md)
-- [Week 01 Log](weekly-logs/week-01.md)
+<section class="lab-section">
+  <div class="section-heading">
+    <p>Workflow</p>
+    <h2>Each framework starts clean.</h2>
+  </div>
+  <div class="flow-grid">
+    <article><span>01</span><h3>Select</h3><p>Choose a practical framework and assign it to a category.</p></article>
+    <article><span>02</span><h3>Build</h3><p>Create a small experiment with reproducible notes.</p></article>
+    <article><span>03</span><h3>Score</h3><p>Document setup, DX, output quality, and production readiness.</p></article>
+    <article><span>04</span><h3>Publish</h3><p>Share the short version on LinkedIn and keep full notes here.</p></article>
+  </div>
+</section>
 `;
 writeFile(path.join(repoRoot, "docs", "index.md"), docsIndex);
 
@@ -457,19 +484,19 @@ ${f.primary_category}
 
 ## Problem
 
-${f.problem_solved || "TBD"}
+TBD
 
 ## What it does
 
-${f.what_it_does || "TBD"}
+TBD
 
 ## Planned mini-build
 
-${f.sample_project || "TBD"}
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the ${f.primary_category} track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -499,11 +526,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: ${f.official_url ? `[${f.official_url}](${f.official_url})` : "TBD"}
-- GitHub: ${f.github_url ? `[${f.github_url}](${f.github_url})` : "TBD"}
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/${f.slug}/](../../experiments/${f.slug}/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/${f.slug})
 
 ## Notes
 
@@ -620,7 +647,7 @@ This experiment has not been run yet. Status: Pending.
 - GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: ../../experiments/000-framework-name/
+- Experiment folder: GitHub folder link
 
 ## Notes
 
@@ -659,6 +686,13 @@ site_url: https://nijatzeynalov.github.io/100-AI-frameworks/
 
 theme:
   name: mkdocs
+  navigation_depth: 3
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
 
 nav:
   - Home: index.md

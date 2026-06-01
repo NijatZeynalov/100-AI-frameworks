@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Recommendation algorithms müqayisəsi üçün unified experiment framework yoxdur.
+TBD
 
 ## What it does
 
-100+ recommendation model və multiple recommendation task üçün PyTorch-based framework verir.
+TBD
 
 ## Planned mini-build
 
-Compare sequential vs collaborative filtering models on e-commerce click data.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://www.recbole.io/](https://www.recbole.io/)
-- GitHub: [https://github.com/RUCAIBox/RecBole](https://github.com/RUCAIBox/RecBole)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/024-recbole/](../../experiments/024-recbole/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/024-recbole)
 
 ## Notes
 

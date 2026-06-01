@@ -14,19 +14,19 @@ LLM Inference & Serving
 
 ## Problem
 
-Disaggregated LLM serving-də KV cache movement və reuse əsas bottleneck olur.
+TBD
 
 ## What it does
 
-Moonshot AI/Kimi serving platform; Transfer Engine və Mooncake Store ilə KV-cache-centric disaggregated serving components verir.
+TBD
 
 ## Planned mini-build
 
-Repeated long-context workload üçün KV-cache reuse demo qur.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LLM Inference & Serving track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://kvcache-ai.github.io/Mooncake/](https://kvcache-ai.github.io/Mooncake/)
-- GitHub: [https://github.com/kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/034-mooncake/](../../experiments/034-mooncake/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/034-mooncake)
 
 ## Notes
 

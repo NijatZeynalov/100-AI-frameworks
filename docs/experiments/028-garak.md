@@ -14,19 +14,19 @@ Structured Output, Guardrails & Evaluation
 
 ## Problem
 
-LLM app-in prompt injection, jailbreak, leakage və hallucination weaknesses-ləri sistemli test olunmur.
+TBD
 
 ## What it does
 
-NVIDIA-backed open-source LLM vulnerability scanner; prompt injection, data leakage, jailbreaks və digər probes işlədir.
+TBD
 
 ## Planned mini-build
 
-Own chatbot endpoint-inə garak prompt injection probe-ları run et.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Structured Output, Guardrails & Evaluation track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://garak.ai/](https://garak.ai/)
-- GitHub: [https://github.com/NVIDIA/garak](https://github.com/NVIDIA/garak)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/028-garak/](../../experiments/028-garak/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/028-garak)
 
 ## Notes
 

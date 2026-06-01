@@ -14,19 +14,19 @@ LLM Inference & Serving
 
 ## Problem
 
-Industrial-scale LLM serving üçün production-proven, high-performance engine lazımdır.
+TBD
 
 ## What it does
 
-Alibaba tərəfindən open-sourced LLM inference acceleration engine; batching, GPU memory management, prefill/decode separation və multi-hardware direction.
+TBD
 
 ## Planned mini-build
 
-High-throughput Qwen serving benchmark with RTP-LLM.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LLM Inference & Serving track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://rtp-llm.ai/](https://rtp-llm.ai/)
-- GitHub: [https://github.com/alibaba/rtp-llm](https://github.com/alibaba/rtp-llm)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/033-rtp-llm/](../../experiments/033-rtp-llm/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/033-rtp-llm)
 
 ## Notes
 

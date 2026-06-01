@@ -14,19 +14,19 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
-Scientific PDFs, formulas, tables and complex page layouts are hard to extract for KBs.
+TBD
 
 ## What it does
 
-Open-source document extraction/conversion toolkit for PDFs and complex layouts.
+TBD
 
 ## Planned mini-build
 
-Academic paper KB that preserves formulas, tables and page structure.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Knowledge Base, RAG & Document Intelligence track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://mineru.net/](https://mineru.net/)
-- GitHub: [https://github.com/opendatalab/MinerU](https://github.com/opendatalab/MinerU)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/032-mineru/](../../experiments/032-mineru/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/032-mineru)
 
 ## Notes
 

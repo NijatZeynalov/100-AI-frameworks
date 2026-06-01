@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Product/content recommendations üçün backend sıfırdan yazılır.
+TBD
 
 ## What it does
 
-Go-based open-source recommender engine; users, items və feedback əsasında recommendations yaradır.
+TBD
 
 ## Planned mini-build
 
-GitHub repository recommender based on stars, topics, and user interactions.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://gorse.io/](https://gorse.io/)
-- GitHub: [https://github.com/gorse-io/gorse](https://github.com/gorse-io/gorse)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/023-gorse/](../../experiments/023-gorse/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/023-gorse)
 
 ## Notes
 

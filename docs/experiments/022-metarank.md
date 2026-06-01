@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Search və listing pages hamıya eyni nəticə göstərir.
+TBD
 
 ## What it does
 
-Low-code learning-to-rank service ilə product listings, articles, search results və recommendations personalize edir.
+TBD
 
 ## Planned mini-build
 
-Personalized product search reranker using clicks, views, and purchases.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.metarank.ai/](https://docs.metarank.ai/)
-- GitHub: [https://github.com/metarank/metarank](https://github.com/metarank/metarank)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/022-metarank/](../../experiments/022-metarank/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/022-metarank)
 
 ## Notes
 

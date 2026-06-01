@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-Agentlerin uzun muddetli davranish, core memory ve archival memory-ni idare ede bilmemesi
+TBD
 
 ## What it does
 
-Stateful agents qurmaq, memory blocks, archival memory ve self-improving behavior yaratmaq ucun platform verir.
+TBD
 
 ## Planned mini-build
 
-Coding mentor agent that remembers user's code style, weak areas, and learning plan.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.letta.com/](https://docs.letta.com/)
-- GitHub: [https://github.com/letta-ai/letta](https://github.com/letta-ai/letta)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/005-letta/](../../experiments/005-letta/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/005-letta)
 
 ## Notes
 

@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Bir neçə domain/task adapterini modular şəkildə train və reuse etmək.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-Bir base model üçün finance adapter + support adapter + Azerbaijani tone adapter konsepti qur.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.adapterhub.ml/](https://docs.adapterhub.ml/)
-- GitHub: [https://github.com/adapter-hub/adapters](https://github.com/adapter-hub/adapters)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/016-adapterhub-adapters/](../../experiments/016-adapterhub-adapters/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/016-adapterhub-adapters)
 
 ## Notes
 

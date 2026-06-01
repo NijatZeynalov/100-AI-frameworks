@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Complex LoRA/QLoRA, DPO, multimodal və MoE fine-tuning configuration-larını production-like şəkildə idarə etmək.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-MoE model üzərində yalnız expert weights üçün LoRA fine-tuning təcrübəsi et.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.axolotl.ai/](https://docs.axolotl.ai/)
-- GitHub: [https://github.com/axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/015-axolotl/](../../experiments/015-axolotl/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/015-axolotl)
 
 ## Notes
 

@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-AI apps-da memory, user profile ve RAG pipeline-i ayrica qurmagin operasional yukunun cox olmasi
+TBD
 
 ## What it does
 
-Memory API kimi ingestion, semantic search, user profiling ve context management verir.
+TBD
 
 ## Planned mini-build
 
-Personal knowledge assistant that remembers articles, notes, and user interests.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://supermemory.ai/docs/introduction](https://supermemory.ai/docs/introduction)
-- GitHub: [https://github.com/supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/006-supermemory/](../../experiments/006-supermemory/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/006-supermemory)
 
 ## Notes
 

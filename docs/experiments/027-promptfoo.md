@@ -14,19 +14,19 @@ Structured Output, Guardrails & Evaluation
 
 ## Problem
 
-Prompt/model comparison cost-aware deyil.
+TBD
 
 ## What it does
 
-Open-source LLM eval framework kimi prompts, models, RAG və agents-i test edir; caching və cost/token reporting workflows ilə istifadə olunur.
+TBD
 
 ## Planned mini-build
 
-20 prompt variantı üçün accuracy, latency və cost table çıxar.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Structured Output, Guardrails & Evaluation track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://www.promptfoo.dev/docs/](https://www.promptfoo.dev/docs/)
-- GitHub: [https://github.com/promptfoo/promptfoo](https://github.com/promptfoo/promptfoo)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/027-promptfoo/](../../experiments/027-promptfoo/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/027-promptfoo)
 
 ## Notes
 

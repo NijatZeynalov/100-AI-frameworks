@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Bir çox model və tuning metodunu vahid CLI/WebUI ilə idarə etmək.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-Eyni dataset üzərində LoRA vs DoRA vs LongLoRA müqayisəsi qur.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://swift2x-en.readthedocs.io/en/latest/](https://swift2x-en.readthedocs.io/en/latest/)
-- GitHub: [https://github.com/modelscope/ms-swift](https://github.com/modelscope/ms-swift)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/014-modelscope-ms-swift/](../../experiments/014-modelscope-ms-swift/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/014-modelscope-ms-swift)
 
 ## Notes
 

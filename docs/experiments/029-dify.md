@@ -14,19 +14,19 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
-LLM app, RAG pipeline, workflow, agent və observability ayrı-ayrı qurulur.
+TBD
 
 ## What it does
 
-Open-source LLM app platformu; knowledge base, RAG, agent workflow, model management və observability verir.
+TBD
 
 ## Planned mini-build
 
-Internal company policy assistant with uploaded PDFs, workflow routing, and citation-backed answers.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Knowledge Base, RAG & Document Intelligence track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.dify.ai/](https://docs.dify.ai/)
-- GitHub: [https://github.com/langgenius/dify](https://github.com/langgenius/dify)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/029-dify/](../../experiments/029-dify/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/029-dify)
 
 ## Notes
 

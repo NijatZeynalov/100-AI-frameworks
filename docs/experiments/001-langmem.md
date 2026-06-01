@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-AI agentlerin conversation-lardan oyrenmemesi ve her session-da eyni seyi yeniden sorushmasi
+TBD
 
 ## What it does
 
-Agentler ucun long-term memory, memory extraction, prompt optimization ve LangGraph storage integration verir.
+TBD
 
 ## Planned mini-build
 
-Personal AI career coach that remembers user goals, preferred roles, rejected companies, and interview feedback.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://langchain-ai.github.io/langmem/](https://langchain-ai.github.io/langmem/)
-- GitHub: [https://github.com/langchain-ai/langmem](https://github.com/langchain-ai/langmem)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/001-langmem/](../../experiments/001-langmem/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/001-langmem)
 
 ## Notes
 

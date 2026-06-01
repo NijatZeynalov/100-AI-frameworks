@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-Agentlerin documents, decisions ve workflows arasindaki relationship-leri anlamamasi
+TBD
 
 ## What it does
 
-Documents ve structured/unstructured data-ni embeddings + graph memory ile queryable context-e cevirir.
+TBD
 
 ## Planned mini-build
 
-Internal policy assistant that connects policies, exceptions, owners, and change history.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://www.cognee.ai/](https://www.cognee.ai/)
-- GitHub: [https://github.com/topoteretes/cognee](https://github.com/topoteretes/cognee)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/007-cognee/](../../experiments/007-cognee/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/007-cognee)
 
 ## Notes
 

@@ -14,19 +14,19 @@ LLM Inference & Serving
 
 ## Problem
 
-1-bit / ternary LLM-lər üçün dedicated efficient inference framework lazımdır.
+TBD
 
 ## What it does
 
-Microsoft BitNet repo daxilində official inference framework; 1-bit LLM inference, benchmarking və deployment üçün nəzərdə tutulub.
+TBD
 
 ## Planned mini-build
 
-BitNet b1.58 modelini CPU-da run edib normal quantized model ilə müqayisə et.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LLM Inference & Serving track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://bitnet.live/](https://bitnet.live/)
-- GitHub: [https://github.com/microsoft/BitNet](https://github.com/microsoft/BitNet)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/035-bitnet-cpp/](../../experiments/035-bitnet-cpp/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/035-bitnet-cpp)
 
 ## Notes
 

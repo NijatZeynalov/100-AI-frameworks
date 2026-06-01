@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Search, vector retrieval və ranking personalization ayrı sistemlərdə qurulur.
+TBD
 
 ## What it does
 
-Search, vector search, tensor ranking və recommendation serving üçün scalable engine verir.
+TBD
 
 ## Planned mini-build
 
-Personalized news search with user embeddings and query-time ranking features.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://vespa.ai/](https://vespa.ai/)
-- GitHub: [https://github.com/vespa-engine/vespa](https://github.com/vespa-engine/vespa)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/026-vespa/](../../experiments/026-vespa/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/026-vespa)
 
 ## Notes
 

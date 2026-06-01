@@ -14,19 +14,19 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
-Complex PDFs, tables, scanned documents və formatted reports basic chunking ilə yaxşı işləmir.
+TBD
 
 ## What it does
 
-Deep document understanding əsaslı open-source RAG engine; citations, parsing və enterprise RAG workflow verir.
+TBD
 
 ## Planned mini-build
 
-Financial report QA system that answers from PDFs with tables and citations.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Knowledge Base, RAG & Document Intelligence track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://ragflow.io/docs/](https://ragflow.io/docs/)
-- GitHub: [https://github.com/infiniflow/ragflow](https://github.com/infiniflow/ragflow)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/030-ragflow/](../../experiments/030-ragflow/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/030-ragflow)
 
 ## Notes
 

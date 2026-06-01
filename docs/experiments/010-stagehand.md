@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-Selenium/Playwright selector-larinin brittle olmasi ve high-level AI browser actions ehtiyaci
+TBD
 
 ## What it does
 
-act, extract, observe, agent primitives ile natural language + code browser automation verir.
+TBD
 
 ## Planned mini-build
 
-Competitor pricing monitor that navigates product pages and extracts structured prices.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://www.browserbase.com/stagehand](https://www.browserbase.com/stagehand)
-- GitHub: [https://github.com/browserbase/stagehand](https://github.com/browserbase/stagehand)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/010-stagehand/](../../experiments/010-stagehand/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/010-stagehand)
 
 ## Notes
 

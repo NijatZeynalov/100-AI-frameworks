@@ -14,19 +14,19 @@ Personalization & Recommendation Systems
 
 ## Problem
 
-Real-time recommendations üçün fresh user/item/context features modelə çatmır.
+TBD
 
 ## What it does
 
-Open-source feature store for defining, managing, discovering and serving features.
+TBD
 
 ## Planned mini-build
 
-E-commerce recommender using recent views, cart additions and purchase features.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Personalization & Recommendation Systems track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://feast.dev/](https://feast.dev/)
-- GitHub: [https://github.com/feast-dev/feast](https://github.com/feast-dev/feast)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/036-feast/](../../experiments/036-feast/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/036-feast)
 
 ## Notes
 

@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-Prototype agentleri production service kimi run, trace, schedule ve manage etmek cetinliyi
+TBD
 
 ## What it does
 
-Agent platform qurmaq, RBAC, tracing, scheduling, memory, human review loops ve control plane verir.
+TBD
 
 ## Planned mini-build
 
-Data analyst agent that runs scheduled business KPI analysis and stores traces.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.agno.com/](https://docs.agno.com/)
-- GitHub: [https://github.com/agno-agi/agno](https://github.com/agno-agi/agno)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/008-agno/](../../experiments/008-agno/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/008-agno)
 
 ## Notes
 

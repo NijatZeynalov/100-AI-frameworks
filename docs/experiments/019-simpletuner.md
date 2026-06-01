@@ -14,7 +14,7 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
-Image/video generative models üçün production-like LoRA training və job orchestration.
+TBD
 
 ## What it does
 
@@ -22,11 +22,11 @@ TBD
 
 ## Planned mini-build
 
-Brand-style LoRA train et: eyni product visual identity-ni FLUX/SDXL modelinə öyrət.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the LoRA, Fine-tuning & Adapter Infrastructure track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://docs.simpletuner.io/](https://docs.simpletuner.io/)
-- GitHub: [https://github.com/bghira/SimpleTuner](https://github.com/bghira/SimpleTuner)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/019-simpletuner/](../../experiments/019-simpletuner/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/019-simpletuner)
 
 ## Notes
 

@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-AI agentlerin real websites ile click, form fill, navigation ve extraction ede bilmemesi
+TBD
 
 ## What it does
 
-Websites-i AI agents ucun accessible edir, browser automation-i natural language ve tools ile idarə edir.
+TBD
 
 ## Planned mini-build
 
-Job search agent that visits job boards, extracts matching roles, and creates a shortlist.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://browser-use.com/](https://browser-use.com/)
-- GitHub: [https://github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/009-browser-use/](../../experiments/009-browser-use/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/009-browser-use)
 
 ## Notes
 

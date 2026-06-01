@@ -60,7 +60,7 @@ This experiment has not been run yet. Status: Pending.
 - GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: ../../experiments/000-framework-name/
+- Experiment folder: GitHub folder link
 
 ## Notes
 

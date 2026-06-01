@@ -14,19 +14,19 @@ Agentic AI & Agent Memory
 
 ## Problem
 
-Agent sadəcə memory saxlayır, amma user modelini reasoning ilə yeniləmir.
+TBD
 
 ## What it does
 
-Stateful agents üçün people, projects, sessions və ideas üzərində reasoning memory layer verir.
+TBD
 
 ## Planned mini-build
 
-Personal productivity assistant that learns communication style and project priorities.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the Agentic AI & Agent Memory track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://honcho.dev/](https://honcho.dev/)
-- GitHub: [https://github.com/plastic-labs/honcho](https://github.com/plastic-labs/honcho)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/020-honcho/](../../experiments/020-honcho/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/020-honcho)
 
 ## Notes
 

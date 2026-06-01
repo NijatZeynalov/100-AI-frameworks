@@ -14,19 +14,19 @@ VLM, OCR & Document Understanding
 
 ## Problem
 
-Linearizing PDFs for LLM/VLM datasets while preserving reading order, tables, equations, and complex formatting.
+TBD
 
 ## What it does
 
-AllenAI toolkit for converting PDFs into clean text using VLM-backed OCR-style processing.
+TBD
 
 ## Planned mini-build
 
-Dataset builder that converts scanned PDFs into clean training/eval samples for document VLMs.
+TBD
 
 ## Why this framework
 
-This framework is selected to test a practical build in the VLM, OCR & Document Understanding track while the lab is still in Pending phase.
+TBD
 
 ## Current status
 
@@ -56,11 +56,11 @@ This experiment has not been run yet. Status: Pending.
 
 ## Links
 
-- Official docs: [https://github.com/allenai/olmocr](https://github.com/allenai/olmocr)
-- GitHub: [https://github.com/allenai/olmocr](https://github.com/allenai/olmocr)
+- Official docs: TBD
+- GitHub: TBD
 - LinkedIn post: Not published yet
 - Weekly log: Not assigned yet
-- Experiment folder: [../../experiments/013-olmocr/](../../experiments/013-olmocr/)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/013-olmocr)
 
 ## Notes
 

@@ -4,6 +4,13 @@ site_url: https://nijatzeynalov.github.io/100-AI-frameworks/
 
 theme:
   name: mkdocs
+  navigation_depth: 3
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js
 
 nav:
   - Home: index.md
