@@ -1,6 +1,21 @@
-# 100 AI Frameworks
+# #100AI Frameworks Lab
 
-Welcome. This project tracks AI frameworks and related tooling in one place.
+Public AI Engineering Lab
 
-Use the navigation to open the framework list and grow the catalog over time.
+Testing 100 open-source AI frameworks through practical mini-builds, scorecards, and production-focused notes.
 
+## Quick Stats
+
+- Target frameworks: 100
+- Selected now: 36
+- Pending: 36
+- Tested: 0
+- Published: 0
+- Categories: 7
+
+## Start Here
+
+- [Progress Dashboard](progress-dashboard.md)
+- [Categories](categories/agentic-ai.md)
+- [Experiments Index](experiments/index.md)
+- [Week 01 Log](weekly-logs/week-01.md)

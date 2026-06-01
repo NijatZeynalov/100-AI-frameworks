@@ -1,5 +1,5 @@
-site_name: 100 AI Frameworks
-site_description: Practical notes on AI frameworks and tooling
+site_name: 100 AI Frameworks Lab
+site_description: Public AI engineering lab for 100 open-source frameworks
 site_url: https://nijatzeynalov.github.io/100-AI-frameworks/
 
 theme:
@@ -7,5 +7,53 @@ theme:
 
 nav:
   - Home: index.md
-  - Framework List: frameworks.md
-
+  - Progress Dashboard: progress-dashboard.md
+  - Weekly Logs:
+      - Week 01: weekly-logs/week-01.md
+      - Week 02: weekly-logs/week-02.md
+  - Categories:
+      - Agentic AI: categories/agentic-ai.md
+      - Guardrails & Eval: categories/structured-output-guardrails-eval.md
+      - VLM & Document AI: categories/vlm-document-ai.md
+      - LoRA & Fine-tuning: categories/lora-finetuning.md
+      - RecSys: categories/recsys.md
+      - Knowledge Base: categories/knowledge-base.md
+      - LLM Inference: categories/llm-inference.md
+  - Experiments:
+      - Index: experiments/index.md
+      - 001 LangMem: experiments/001-langmem.md
+      - 002 Mem0: experiments/002-mem0.md
+      - 003 Zep: experiments/003-zep.md
+      - 004 Graphiti: experiments/004-graphiti.md
+      - 005 Letta: experiments/005-letta.md
+      - 006 Supermemory: experiments/006-supermemory.md
+      - 007 Cognee: experiments/007-cognee.md
+      - 008 Agno: experiments/008-agno.md
+      - 009 Browser Use: experiments/009-browser-use.md
+      - 010 Stagehand: experiments/010-stagehand.md
+      - 011 BAML: experiments/011-baml.md
+      - 012 Guardrails AI: experiments/012-guardrails-ai.md
+      - 013 olmOCR: experiments/013-olmocr.md
+      - 014 ModelScope ms-swift: experiments/014-modelscope-ms-swift.md
+      - 015 Axolotl: experiments/015-axolotl.md
+      - 016 AdapterHub Adapters: experiments/016-adapterhub-adapters.md
+      - 017 m-LoRA: experiments/017-m-lora.md
+      - 018 LoRAX: experiments/018-lorax.md
+      - 019 SimpleTuner: experiments/019-simpletuner.md
+      - 020 Honcho: experiments/020-honcho.md
+      - 021 memU: experiments/021-memu.md
+      - 022 Metarank: experiments/022-metarank.md
+      - 023 Gorse: experiments/023-gorse.md
+      - 024 RecBole: experiments/024-recbole.md
+      - 025 Cornac: experiments/025-cornac.md
+      - 026 Vespa: experiments/026-vespa.md
+      - 027 promptfoo: experiments/027-promptfoo.md
+      - 028 garak: experiments/028-garak.md
+      - 029 Dify: experiments/029-dify.md
+      - 030 RAGFlow: experiments/030-ragflow.md
+      - 031 Quivr: experiments/031-quivr.md
+      - 032 MinerU: experiments/032-mineru.md
+      - 033 RTP-LLM: experiments/033-rtp-llm.md
+      - 034 Mooncake: experiments/034-mooncake.md
+      - 035 BitNet.cpp: experiments/035-bitnet-cpp.md
+      - 036 Feast: experiments/036-feast.md

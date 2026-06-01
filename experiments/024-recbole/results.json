@@ -1,0 +1,28 @@
+{
+  "framework": "RecBole",
+  "slug": "024-recbole",
+  "status": "Pending",
+  "category": "Personalization & Recommendation Systems",
+  "tested_at": null,
+  "published_at": null,
+  "linkedin_url": null,
+  "newsletter_url": null,
+  "experiment_url": null,
+  "scorecard": {
+    "setup_experience": null,
+    "documentation_quality": null,
+    "developer_experience": null,
+    "output_quality": null,
+    "debuggability": null,
+    "production_readiness": null,
+    "before_after_value": null,
+    "hiring_signal": null
+  },
+  "results": {
+    "summary": null,
+    "what_worked": [],
+    "what_failed": [],
+    "production_notes": [],
+    "final_verdict": null
+  }
+}
