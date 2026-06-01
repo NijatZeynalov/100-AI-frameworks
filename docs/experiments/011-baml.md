@@ -6,11 +6,11 @@ Pending
 
 ## Category
 
-Structured Output, Guardrails & Evaluation
+Prompt Optimization & Evaluation
 
 ## Tags
 
-`#100AIFrameworks`, `#structured-output-guardrails-eval`
+`#100AIFrameworks`, `#prompt-optimization-eval`
 
 ## Problem
 

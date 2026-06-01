@@ -39,3 +39,6 @@
 - [038 - LightlyTrain](038-lightly-train.md)
 - [039 - MONAI](039-monai.md)
 - [040 - Norfair](040-norfair.md)
+- [041 - GEPA](041-gepa.md)
+- [042 - TextGrad](042-textgrad.md)
+- [043 - ell](043-ell.md)

@@ -1,6 +1,6 @@
 {
-  "framework": "promptfoo",
-  "slug": "027-promptfoo",
+  "framework": "TextGrad",
+  "slug": "042-textgrad",
   "status": "Pending",
   "category": "Prompt Optimization & Evaluation",
   "tested_at": null,

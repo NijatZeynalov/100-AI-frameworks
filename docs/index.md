@@ -21,8 +21,8 @@
 
 <section class="metric-grid">
   <article><strong>100</strong><span>target frameworks</span></article>
-  <article><strong>39</strong><span>selected</span></article>
-  <article><strong>39</strong><span>pending</span></article>
+  <article><strong>42</strong><span>selected</span></article>
+  <article><strong>42</strong><span>pending</span></article>
   <article><strong>0</strong><span>tested</span></article>
   <article><strong>7</strong><span>categories</span></article>
 </section>
@@ -38,7 +38,7 @@
     <a href="categories/recsys/">Recommendation Systems</a>
     <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
     <a href="categories/computer-vision/">Computer Vision</a>
-    <a href="categories/structured-output-guardrails-eval/">Guardrails & Eval</a>
+    <a href="categories/prompt-optimization-eval/">Prompt Optimization</a>
     <a href="categories/llm-inference/">LLM Inference</a>
   </div>
 </section>

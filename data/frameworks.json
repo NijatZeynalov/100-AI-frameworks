@@ -273,11 +273,11 @@
     "experiment_number": "011",
     "slug": "011-baml",
     "name": "BAML",
-    "primary_category": "Structured Output, Guardrails & Evaluation",
-    "primary_category_slug": "structured-output-guardrails-eval",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
     "secondary_tags": [
       "100AIFrameworks",
-      "structured-output-guardrails-eval"
+      "prompt-optimization-eval"
     ],
     "status": "Pending",
     "problem_solved": "Managing prompts as strings creates versioning and structured output reliability problems.",
@@ -300,11 +300,11 @@
     "experiment_number": "012",
     "slug": "012-guardrails-ai",
     "name": "Guardrails AI",
-    "primary_category": "Structured Output, Guardrails & Evaluation",
-    "primary_category_slug": "structured-output-guardrails-eval",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
     "secondary_tags": [
       "100AIFrameworks",
-      "structured-output-guardrails-eval"
+      "prompt-optimization-eval"
     ],
     "status": "Pending",
     "problem_solved": "LLM apps need protection against input/output risks, PII leakage, unsafe content, and malformed structured data.",
@@ -678,11 +678,11 @@
     "experiment_number": "027",
     "slug": "027-promptfoo",
     "name": "promptfoo",
-    "primary_category": "Structured Output, Guardrails & Evaluation",
-    "primary_category_slug": "structured-output-guardrails-eval",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
     "secondary_tags": [
       "100AIFrameworks",
-      "structured-output-guardrails-eval"
+      "prompt-optimization-eval"
     ],
     "status": "Pending",
     "problem_solved": "Prompt and model comparisons are often not cost-aware.",
@@ -705,11 +705,11 @@
     "experiment_number": "028",
     "slug": "028-garak",
     "name": "garak",
-    "primary_category": "Structured Output, Guardrails & Evaluation",
-    "primary_category_slug": "structured-output-guardrails-eval",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
     "secondary_tags": [
       "100AIFrameworks",
-      "structured-output-guardrails-eval"
+      "prompt-optimization-eval"
     ],
     "status": "Pending",
     "problem_solved": "LLM applications are not systematically tested for prompt injection, jailbreaks, leakage, and hallucination weaknesses.",
@@ -1041,6 +1041,87 @@
     "secondary_tags": [
       "100AIFrameworks",
       "computer-vision"
+    ],
+    "status": "Pending",
+    "linkedin_hook": null,
+    "selected_from_source": "frameworks.json",
+    "tested_at": null,
+    "published_at": null,
+    "linkedin_url": null,
+    "newsletter_url": null,
+    "experiment_url": null,
+    "score": null
+  },
+  {
+    "experiment_number": "041",
+    "slug": "041-gepa",
+    "name": "GEPA",
+    "problem_solved": "Prompt and system optimization often requires expensive trial-and-error without interpretable traces.",
+    "what_it_does": "Automatically optimizes prompts and AI system components using reflective prompt evolution, evaluation feedback, and adapters for systems such as DSPy, RAG, LangChain, and MCP.",
+    "official_url": "https://gepa-ai.github.io/gepa/",
+    "github_url": "https://github.com/gepa-ai/gepa",
+    "docs_url": "https://gepa-ai.github.io/gepa/",
+    "sample_project": "Optimize a RAG answer-generation prompt using a small validation set and compare baseline versus optimized outputs.",
+    "before_after_angle": "Before: prompts are tuned manually. After: GEPA proposes and evaluates prompt candidates using feedback from system traces.",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
+    "secondary_tags": [
+      "100AIFrameworks",
+      "prompt-optimization-eval"
+    ],
+    "status": "Pending",
+    "linkedin_hook": null,
+    "selected_from_source": "frameworks.json",
+    "tested_at": null,
+    "published_at": null,
+    "linkedin_url": null,
+    "newsletter_url": null,
+    "experiment_url": null,
+    "score": null
+  },
+  {
+    "experiment_number": "042",
+    "slug": "042-textgrad",
+    "name": "TextGrad",
+    "problem_solved": "Text-based systems are hard to optimize with standard gradients, especially when they include prompts, agents, and tool calls.",
+    "what_it_does": "Provides a PyTorch-like interface for text optimization using natural-language feedback as LLM gradients.",
+    "official_url": "https://textgrad.com/",
+    "github_url": "https://github.com/zou-group/textgrad",
+    "docs_url": "https://textgrad.readthedocs.io/",
+    "sample_project": "Optimize a reasoning prompt or agent response pipeline with text-gradient feedback and compare answer quality before and after optimization.",
+    "before_after_angle": "Before: prompt improvements are based on manual intuition. After: TextGrad uses structured natural-language feedback to guide iterative optimization.",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
+    "secondary_tags": [
+      "100AIFrameworks",
+      "prompt-optimization-eval"
+    ],
+    "status": "Pending",
+    "linkedin_hook": null,
+    "selected_from_source": "frameworks.json",
+    "tested_at": null,
+    "published_at": null,
+    "linkedin_url": null,
+    "newsletter_url": null,
+    "experiment_url": null,
+    "score": null
+  },
+  {
+    "experiment_number": "043",
+    "slug": "043-ell",
+    "name": "ell",
+    "problem_solved": "Prompt engineering becomes hard to track when prompts are treated as loose strings instead of versioned programs.",
+    "what_it_does": "Provides a lightweight language model programming library that treats prompts as functions with versioning, tracing, evaluations, multimodal inputs, and a local studio.",
+    "official_url": "https://docs.ell.so/",
+    "github_url": "https://github.com/MadcowD/ell",
+    "docs_url": "https://docs.ell.so/",
+    "sample_project": "Build a versioned prompt workflow with traced calls, compare prompt versions, and inspect outputs in Ell Studio.",
+    "before_after_angle": "Before: prompts are scattered across code with limited history. After: ell turns prompts into traceable, versioned language model programs.",
+    "primary_category": "Prompt Optimization & Evaluation",
+    "primary_category_slug": "prompt-optimization-eval",
+    "secondary_tags": [
+      "100AIFrameworks",
+      "prompt-optimization-eval"
     ],
     "status": "Pending",
     "linkedin_hook": null,

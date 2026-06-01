@@ -1,8 +1,8 @@
 # Progress Dashboard
 
 - Total target: 100
-- Currently selected: 39
-- Pending: 39
+- Currently selected: 42
+- Pending: 42
 - Tested: 0
 - Categories covered: 7
 
@@ -18,8 +18,8 @@
 | 008 | Agno | Agentic AI & Agent Memory | Pending | Data analyst agent that runs scheduled business KPI analysis and stores traces. | [Official](https://docs.agno.com/) | [GitHub](https://github.com/agno-agi/agno) | [Page](experiments/008-agno.md) |
 | 009 | Browser Use | Agentic AI & Agent Memory | Pending | Job search agent that visits job boards, extracts matching roles, and creates a shortlist. | [Official](https://browser-use.com/) | [GitHub](https://github.com/browser-use/browser-use) | [Page](experiments/009-browser-use.md) |
 | 010 | Stagehand | Agentic AI & Agent Memory | Pending | Competitor pricing monitor that navigates product pages and extracts structured prices. | [Official](https://www.browserbase.com/stagehand) | [GitHub](https://github.com/browserbase/stagehand) | [Page](experiments/010-stagehand.md) |
-| 011 | BAML | Structured Output, Guardrails & Evaluation | Pending | PDF invoice extraction workflow with typed LLM functions and testable schemas. | [Official](https://docs.boundaryml.com/) | [GitHub](https://github.com/BoundaryML/baml) | [Page](experiments/011-baml.md) |
-| 012 | Guardrails AI | Structured Output, Guardrails & Evaluation | Pending | Healthcare intake assistant with PII checks, safety filters, and structured output validation. | [Official](https://guardrailsai.com/guardrails/docs) | [GitHub](https://github.com/guardrails-ai/guardrails) | [Page](experiments/012-guardrails-ai.md) |
+| 011 | BAML | Prompt Optimization & Evaluation | Pending | PDF invoice extraction workflow with typed LLM functions and testable schemas. | [Official](https://docs.boundaryml.com/) | [GitHub](https://github.com/BoundaryML/baml) | [Page](experiments/011-baml.md) |
+| 012 | Guardrails AI | Prompt Optimization & Evaluation | Pending | Healthcare intake assistant with PII checks, safety filters, and structured output validation. | [Official](https://guardrailsai.com/guardrails/docs) | [GitHub](https://github.com/guardrails-ai/guardrails) | [Page](experiments/012-guardrails-ai.md) |
 | 014 | ModelScope ms-swift | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Compare LoRA, DoRA, and LongLoRA on the same dataset. | [Official](https://swift2x-en.readthedocs.io/en/latest/) | [GitHub](https://github.com/modelscope/ms-swift) | [Page](experiments/014-modelscope-ms-swift.md) |
 | 015 | Axolotl | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Run a LoRA fine-tuning experiment focused only on expert weights in a MoE model. | [Official](https://docs.axolotl.ai/) | [GitHub](https://github.com/axolotl-ai-cloud/axolotl) | [Page](experiments/015-axolotl.md) |
 | 016 | AdapterHub Adapters | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Build a concept with finance, support, and Azerbaijani tone adapters for one base model. | [Official](https://docs.adapterhub.ml/) | [GitHub](https://github.com/adapter-hub/adapters) | [Page](experiments/016-adapterhub-adapters.md) |
@@ -33,8 +33,8 @@
 | 024 | RecBole | Personalization & Recommendation Systems | Pending | Compare sequential vs collaborative filtering models on e-commerce click data. | [Official](https://www.recbole.io/) | [GitHub](https://github.com/RUCAIBox/RecBole) | [Page](experiments/024-recbole.md) |
 | 025 | Cornac | Personalization & Recommendation Systems | Pending | Fashion recommender using product images, descriptions, and user interactions. | [Official](https://cornac.readthedocs.io/) | [GitHub](https://github.com/PreferredAI/cornac) | [Page](experiments/025-cornac.md) |
 | 026 | Vespa | Personalization & Recommendation Systems | Pending | Personalized news search with user embeddings and query-time ranking features. | [Official](https://vespa.ai/) | [GitHub](https://github.com/vespa-engine/vespa) | [Page](experiments/026-vespa.md) |
-| 027 | promptfoo | Structured Output, Guardrails & Evaluation | Pending | Build an accuracy, latency, and cost table for 20 prompt variants. | [Official](https://www.promptfoo.dev/docs/) | [GitHub](https://github.com/promptfoo/promptfoo) | [Page](experiments/027-promptfoo.md) |
-| 028 | garak | Structured Output, Guardrails & Evaluation | Pending | Run garak prompt injection probes against my own chatbot endpoint. | [Official](https://garak.ai/) | [GitHub](https://github.com/NVIDIA/garak) | [Page](experiments/028-garak.md) |
+| 027 | promptfoo | Prompt Optimization & Evaluation | Pending | Build an accuracy, latency, and cost table for 20 prompt variants. | [Official](https://www.promptfoo.dev/docs/) | [GitHub](https://github.com/promptfoo/promptfoo) | [Page](experiments/027-promptfoo.md) |
+| 028 | garak | Prompt Optimization & Evaluation | Pending | Run garak prompt injection probes against my own chatbot endpoint. | [Official](https://garak.ai/) | [GitHub](https://github.com/NVIDIA/garak) | [Page](experiments/028-garak.md) |
 | 029 | Dify | Knowledge Base, RAG & Document Intelligence | Pending | Internal company policy assistant with uploaded PDFs, workflow routing, and citation-backed answers. | [Official](https://docs.dify.ai/) | [GitHub](https://github.com/langgenius/dify) | [Page](experiments/029-dify.md) |
 | 030 | RAGFlow | Knowledge Base, RAG & Document Intelligence | Pending | Financial report QA system that answers from PDFs with tables and citations. | [Official](https://ragflow.io/docs/) | [GitHub](https://github.com/infiniflow/ragflow) | [Page](experiments/030-ragflow.md) |
 | 031 | Quivr | Knowledge Base, RAG & Document Intelligence | Pending | Personal research knowledge base over PDFs, notes, and web articles. | [Official](https://core.quivr.com/en/latest/) | [GitHub](https://github.com/QuivrHQ/quivr) | [Page](experiments/031-quivr.md) |
@@ -47,3 +47,6 @@
 | 038 | LightlyTrain | Computer Vision Frameworks | Pending | Pretrain or fine-tune a detector on a custom visual dataset and compare baseline versus adapted model behavior. | [Official](https://www.lightly.ai/lightlytrain) | [GitHub](https://github.com/lightly-ai/lightly-train) | [Page](experiments/038-lightly-train.md) |
 | 039 | MONAI | Computer Vision Frameworks | Pending | Build a medical image segmentation experiment with MONAI transforms, training utilities, and sliding-window inference. | [Official](https://project-monai.github.io/) | [GitHub](https://github.com/Project-MONAI/MONAI) | [Page](experiments/039-monai.md) |
 | 040 | Norfair | Computer Vision Frameworks | Pending | Add tracking IDs to detections from a YOLO-style detector and evaluate object continuity across video frames. | [Official](https://tryolabs.github.io/norfair/2.2/) | [GitHub](https://github.com/tryolabs/norfair) | [Page](experiments/040-norfair.md) |
+| 041 | GEPA | Prompt Optimization & Evaluation | Pending | Optimize a RAG answer-generation prompt using a small validation set and compare baseline versus optimized outputs. | [Official](https://gepa-ai.github.io/gepa/) | [GitHub](https://github.com/gepa-ai/gepa) | [Page](experiments/041-gepa.md) |
+| 042 | TextGrad | Prompt Optimization & Evaluation | Pending | Optimize a reasoning prompt or agent response pipeline with text-gradient feedback and compare answer quality before and after optimization. | [Official](https://textgrad.com/) | [GitHub](https://github.com/zou-group/textgrad) | [Page](experiments/042-textgrad.md) |
+| 043 | ell | Prompt Optimization & Evaluation | Pending | Build a versioned prompt workflow with traced calls, compare prompt versions, and inspect outputs in Ell Studio. | [Official](https://docs.ell.so/) | [GitHub](https://github.com/MadcowD/ell) | [Page](experiments/043-ell.md) |

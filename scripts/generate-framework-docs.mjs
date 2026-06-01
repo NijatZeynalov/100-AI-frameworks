@@ -11,11 +11,11 @@ const CATEGORY_META = {
     problems:
       "Persistent memory, browser actions, temporal context graphs, and automation loops for practical agents.",
   },
-  "structured-output-guardrails-eval": {
-    title: "Structured Output, Guardrails & Evaluation",
-    goal: "Improve reliability, safety, and evaluation quality for LLM apps.",
+  "prompt-optimization-eval": {
+    title: "Prompt Optimization & Evaluation",
+    goal: "Improve prompt quality, structured outputs, safety checks, and evaluation workflows for LLM apps.",
     problems:
-      "Schema-first outputs, input/output safety checks, red-team style testing, and prompt/model evaluation.",
+      "Prompt-as-code workflows, prompt optimization, schema-first outputs, guardrails, vulnerability testing, and prompt/model evaluation.",
   },
   "computer-vision": {
     title: "Computer Vision Frameworks",
@@ -145,7 +145,7 @@ const docsIndex = `# #100AI Frameworks Lab
     <a href="categories/recsys/">Recommendation Systems</a>
     <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
     <a href="categories/computer-vision/">Computer Vision</a>
-    <a href="categories/structured-output-guardrails-eval/">Guardrails & Eval</a>
+    <a href="categories/prompt-optimization-eval/">Prompt Optimization</a>
     <a href="categories/llm-inference/">LLM Inference</a>
   </div>
 </section>
@@ -468,7 +468,7 @@ nav:
       - Week 02: weekly-logs/week-02.md
   - Categories:
       - Agentic AI: categories/agentic-ai.md
-      - Guardrails & Eval: categories/structured-output-guardrails-eval.md
+      - Prompt Optimization & Eval: categories/prompt-optimization-eval.md
       - Computer Vision: categories/computer-vision.md
       - LoRA & Fine-tuning: categories/lora-finetuning.md
       - RecSys: categories/recsys.md

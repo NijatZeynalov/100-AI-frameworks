@@ -1,4 +1,4 @@
-# 012 - Guardrails AI
+# 042 - TextGrad
 
 ## Status
 
@@ -59,7 +59,7 @@ This experiment has not been run yet. Status: Pending.
 - Official docs: TBD
 - GitHub: TBD
 - Weekly log: Not assigned yet
-- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/012-guardrails-ai)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/042-textgrad)
 
 ## Notes
 
