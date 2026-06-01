@@ -21,7 +21,7 @@ nav:
   - Categories:
       - Agentic AI: categories/agentic-ai.md
       - Guardrails & Eval: categories/structured-output-guardrails-eval.md
-      - VLM & Document AI: categories/vlm-document-ai.md
+      - Computer Vision: categories/computer-vision.md
       - LoRA & Fine-tuning: categories/lora-finetuning.md
       - RecSys: categories/recsys.md
       - Knowledge Base: categories/knowledge-base.md
@@ -40,7 +40,6 @@ nav:
       - 010 Stagehand: experiments/010-stagehand.md
       - 011 BAML: experiments/011-baml.md
       - 012 Guardrails AI: experiments/012-guardrails-ai.md
-      - 013 olmOCR: experiments/013-olmocr.md
       - 014 ModelScope ms-swift: experiments/014-modelscope-ms-swift.md
       - 015 Axolotl: experiments/015-axolotl.md
       - 016 AdapterHub Adapters: experiments/016-adapterhub-adapters.md
@@ -64,3 +63,7 @@ nav:
       - 034 Mooncake: experiments/034-mooncake.md
       - 035 BitNet.cpp: experiments/035-bitnet-cpp.md
       - 036 Feast: experiments/036-feast.md
+      - 037 FiftyOne: experiments/037-fiftyone.md
+      - 038 LightlyTrain: experiments/038-lightly-train.md
+      - 039 MONAI: experiments/039-monai.md
+      - 040 Norfair: experiments/040-norfair.md

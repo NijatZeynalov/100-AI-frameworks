@@ -1,4 +1,4 @@
-# 013 - olmOCR
+# 040 - Norfair
 
 ## Status
 
@@ -6,11 +6,11 @@ Pending
 
 ## Category
 
-VLM, OCR & Document Understanding
+Computer Vision Frameworks
 
 ## Tags
 
-`#100AIFrameworks`, `#vlm-document-ai`
+`#100AIFrameworks`, `#computer-vision`
 
 ## Problem
 
@@ -59,7 +59,7 @@ This experiment has not been run yet. Status: Pending.
 - Official docs: TBD
 - GitHub: TBD
 - Weekly log: Not assigned yet
-- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/013-olmocr)
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/040-norfair)
 
 ## Notes
 

@@ -1,8 +1,8 @@
 # Progress Dashboard
 
 - Total target: 100
-- Currently selected: 36
-- Pending: 36
+- Currently selected: 39
+- Pending: 39
 - Tested: 0
 - Categories covered: 7
 
@@ -20,7 +20,6 @@
 | 010 | Stagehand | Agentic AI & Agent Memory | Pending | Competitor pricing monitor that navigates product pages and extracts structured prices. | [Official](https://www.browserbase.com/stagehand) | [GitHub](https://github.com/browserbase/stagehand) | [Page](experiments/010-stagehand.md) |
 | 011 | BAML | Structured Output, Guardrails & Evaluation | Pending | PDF invoice extraction workflow with typed LLM functions and testable schemas. | [Official](https://docs.boundaryml.com/) | [GitHub](https://github.com/BoundaryML/baml) | [Page](experiments/011-baml.md) |
 | 012 | Guardrails AI | Structured Output, Guardrails & Evaluation | Pending | Healthcare intake assistant with PII checks, safety filters, and structured output validation. | [Official](https://guardrailsai.com/guardrails/docs) | [GitHub](https://github.com/guardrails-ai/guardrails) | [Page](experiments/012-guardrails-ai.md) |
-| 013 | olmOCR | VLM, OCR & Document Understanding | Pending | Dataset builder that converts scanned PDFs into clean training/eval samples for document VLMs. | [Official](https://github.com/allenai/olmocr) | [GitHub](https://github.com/allenai/olmocr) | [Page](experiments/013-olmocr.md) |
 | 014 | ModelScope ms-swift | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Compare LoRA, DoRA, and LongLoRA on the same dataset. | [Official](https://swift2x-en.readthedocs.io/en/latest/) | [GitHub](https://github.com/modelscope/ms-swift) | [Page](experiments/014-modelscope-ms-swift.md) |
 | 015 | Axolotl | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Run a LoRA fine-tuning experiment focused only on expert weights in a MoE model. | [Official](https://docs.axolotl.ai/) | [GitHub](https://github.com/axolotl-ai-cloud/axolotl) | [Page](experiments/015-axolotl.md) |
 | 016 | AdapterHub Adapters | LoRA, Fine-tuning & Adapter Infrastructure | Pending | Build a concept with finance, support, and Azerbaijani tone adapters for one base model. | [Official](https://docs.adapterhub.ml/) | [GitHub](https://github.com/adapter-hub/adapters) | [Page](experiments/016-adapterhub-adapters.md) |
@@ -44,3 +43,7 @@
 | 034 | Mooncake | LLM Inference & Serving | Pending | Build a KV-cache reuse demo for repeated long-context workloads. | [Official](https://kvcache-ai.github.io/Mooncake/) | [GitHub](https://github.com/kvcache-ai/Mooncake) | [Page](experiments/034-mooncake.md) |
 | 035 | BitNet.cpp | LLM Inference & Serving | Pending | Run the BitNet b1.58 model on CPU and compare it with a normal quantized model. | [Official](https://bitnet.live/) | [GitHub](https://github.com/microsoft/BitNet) | [Page](experiments/035-bitnet-cpp.md) |
 | 036 | Feast | Personalization & Recommendation Systems | Pending | E-commerce recommender using recent views, cart additions and purchase features. | [Official](https://feast.dev/) | [GitHub](https://github.com/feast-dev/feast) | [Page](experiments/036-feast.md) |
+| 037 | FiftyOne | Computer Vision Frameworks | Pending | Analyze false positives and false negatives for a detector in an interactive UI. | [Official](https://fiftyone.ai/) | [GitHub](https://github.com/voxel51/fiftyone) | [Page](experiments/037-fiftyone.md) |
+| 038 | LightlyTrain | Computer Vision Frameworks | Pending | Pretrain or fine-tune a detector on a custom visual dataset and compare baseline versus adapted model behavior. | [Official](https://www.lightly.ai/lightlytrain) | [GitHub](https://github.com/lightly-ai/lightly-train) | [Page](experiments/038-lightly-train.md) |
+| 039 | MONAI | Computer Vision Frameworks | Pending | Build a medical image segmentation experiment with MONAI transforms, training utilities, and sliding-window inference. | [Official](https://project-monai.github.io/) | [GitHub](https://github.com/Project-MONAI/MONAI) | [Page](experiments/039-monai.md) |
+| 040 | Norfair | Computer Vision Frameworks | Pending | Add tracking IDs to detections from a YOLO-style detector and evaluate object continuity across video frames. | [Official](https://tryolabs.github.io/norfair/2.2/) | [GitHub](https://github.com/tryolabs/norfair) | [Page](experiments/040-norfair.md) |

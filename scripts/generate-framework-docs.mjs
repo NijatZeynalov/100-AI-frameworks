@@ -17,11 +17,11 @@ const CATEGORY_META = {
     problems:
       "Schema-first outputs, input/output safety checks, red-team style testing, and prompt/model evaluation.",
   },
-  "vlm-document-ai": {
-    title: "VLM, OCR & Document Understanding",
-    goal: "Convert complex documents into reliable machine-readable content.",
+  "computer-vision": {
+    title: "Computer Vision Frameworks",
+    goal: "Test practical computer vision frameworks through real project-based experiments.",
     problems:
-      "Reading order, table/formula extraction, layout-heavy PDFs, and document intelligence ingestion.",
+      "Dataset curation, model evaluation, domain adaptation, medical imaging, and real-time tracking workflows.",
   },
   "lora-finetuning": {
     title: "LoRA, Fine-tuning & Adapter Infrastructure",
@@ -144,7 +144,7 @@ const docsIndex = `# #100AI Frameworks Lab
     <a href="categories/knowledge-base/">Knowledge Base & RAG</a>
     <a href="categories/recsys/">Recommendation Systems</a>
     <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
-    <a href="categories/vlm-document-ai/">Document AI</a>
+    <a href="categories/computer-vision/">Computer Vision</a>
     <a href="categories/structured-output-guardrails-eval/">Guardrails & Eval</a>
     <a href="categories/llm-inference/">LLM Inference</a>
   </div>
@@ -469,7 +469,7 @@ nav:
   - Categories:
       - Agentic AI: categories/agentic-ai.md
       - Guardrails & Eval: categories/structured-output-guardrails-eval.md
-      - VLM & Document AI: categories/vlm-document-ai.md
+      - Computer Vision: categories/computer-vision.md
       - LoRA & Fine-tuning: categories/lora-finetuning.md
       - RecSys: categories/recsys.md
       - Knowledge Base: categories/knowledge-base.md

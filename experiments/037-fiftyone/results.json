@@ -1,8 +1,8 @@
 {
-  "framework": "olmOCR",
-  "slug": "013-olmocr",
+  "framework": "FiftyOne",
+  "slug": "037-fiftyone",
   "status": "Pending",
-  "category": "VLM, OCR & Document Understanding",
+  "category": "Computer Vision Frameworks",
   "tested_at": null,
   "published_at": null,
   "linkedin_url": null,
