@@ -103,6 +103,290 @@ const FRAMEWORK_TO_CATEGORY = new Map(
   ].map(([name, slug]) => [normName(name), slug]),
 );
 
+const ENGLISH_FIELD_OVERRIDES = {
+  langmem: {
+    problem_solved:
+      "AI agents often fail to learn from prior conversations and ask the same questions again in each new session.",
+    what_it_does:
+      "Provides long-term memory, memory extraction, prompt optimization, and LangGraph storage integration for agents.",
+    before_after_angle:
+      "Before: the chatbot starts from scratch every time. After: the agent uses previous conversations to provide more personalized answers.",
+  },
+  mem0: {
+    problem_solved: "LLM apps often lack persistent user context and personalization.",
+    what_it_does:
+      "Works as a universal memory layer that stores and retrieves user, agent, and session memory.",
+    before_after_angle:
+      "Before: the support bot treats every ticket separately. After: the bot responds with better context from customer history.",
+  },
+  zep: {
+    problem_solved:
+      "Enterprise agents struggle to manage dynamic business context and conversation history at scale.",
+    what_it_does:
+      "Provides governed, low-latency context retrieval through a temporal knowledge graph-based memory layer.",
+    before_after_angle:
+      "Before: CRM notes remain plain text. After: the agent uses a temporal relationship graph.",
+  },
+  graphiti: {
+    problem_solved:
+      "RAG systems often require batch knowledge graph rebuilds whenever information changes.",
+    what_it_does:
+      "Builds real-time temporal context graphs and incrementally stores new facts and relationship changes.",
+    before_after_angle:
+      "Before: recent meeting notes are lost inside static RAG. After: the agent can inspect decision timelines and relationship changes.",
+  },
+  letta: {
+    problem_solved:
+      "Agents struggle to manage long-term behavior, core memory, and archival memory.",
+    what_it_does:
+      "Provides a platform for building stateful agents with memory blocks, archival memory, and self-improving behavior.",
+    before_after_angle:
+      "Before: the coding assistant gives generic advice. After: it mentors based on the user's history.",
+  },
+  supermemory: {
+    problem_solved:
+      "Building memory, user profiles, and RAG pipelines separately adds operational overhead to AI apps.",
+    what_it_does:
+      "Provides ingestion, semantic search, user profiling, and context management through a memory API.",
+    before_after_angle:
+      "Before: bookmark search remains keyword-based. After: the assistant responds with user memory and semantic context.",
+  },
+  cognee: {
+    problem_solved:
+      "Agents often miss relationships between documents, decisions, and workflows.",
+    what_it_does:
+      "Turns structured and unstructured data into queryable context using embeddings and graph memory.",
+    before_after_angle:
+      "Before: RAG only finds similar chunks. After: the agent reasons through a relationship graph.",
+  },
+  agno: {
+    problem_solved:
+      "Prototype agents are difficult to run, trace, schedule, and manage as production services.",
+    what_it_does:
+      "Provides an agent platform with RBAC, tracing, scheduling, memory, human review loops, and a control plane.",
+    before_after_angle:
+      "Before: the notebook demo runs manually. After: it runs as a scheduled, traceable agent service.",
+  },
+  "browser-use": {
+    problem_solved:
+      "AI agents struggle to click, fill forms, navigate, and extract information from real websites.",
+    what_it_does:
+      "Makes websites accessible to AI agents and controls browser automation through natural language and tools.",
+    before_after_angle:
+      "Before: job search happens manually across browser tabs. After: a browser agent automates repetitive browsing.",
+  },
+  stagehand: {
+    problem_solved:
+      "Selenium and Playwright selectors are brittle when high-level AI browser actions are needed.",
+    what_it_does:
+      "Provides natural language plus code-based browser automation through act, extract, observe, and agent primitives.",
+    before_after_angle:
+      "Before: the scraper breaks when CSS selectors change. After: AI-assisted extraction is more flexible.",
+  },
+  baml: {
+    problem_solved:
+      "Managing prompts as strings creates versioning and structured output reliability problems.",
+    what_it_does:
+      "Turns prompt engineering into schema engineering through a DSL for reliable LLM functions.",
+    before_after_angle:
+      "Before: prompts are scattered inside application code. After: BAML functions make prompts and schemas maintainable.",
+  },
+  "guardrails-ai": {
+    problem_solved:
+      "LLM apps need protection against input/output risks, PII leakage, unsafe content, and malformed structured data.",
+    what_it_does:
+      "Provides input/output guards, validators, risk detection, and structured data validation.",
+    before_after_angle:
+      "Before: the bot can return sensitive data without checks. After: guards block and validate risky input/output.",
+  },
+  "modelscope-ms-swift": {
+    problem_solved:
+      "Teams need one CLI and Web UI to manage many model families and tuning methods.",
+    what_it_does:
+      "Supports LoRA, QLoRA, DoRA, LoRA+, LongLoRA, LoRA-GA, ReFT, RS-LoRA, and multimodal fine-tuning workflows.",
+    sample_project:
+      "Compare LoRA, DoRA, and LongLoRA on the same dataset.",
+    before_after_angle:
+      "Before: only one LoRA adapter is tested. After: multiple adapter methods are compared across accuracy, latency, and memory.",
+  },
+  axolotl: {
+    problem_solved:
+      "Complex LoRA/QLoRA, DPO, multimodal, and MoE fine-tuning configurations are hard to manage in a production-like way.",
+    what_it_does:
+      "Provides a configuration-first training stack for advanced LLM fine-tuning workflows.",
+    sample_project:
+      "Run a LoRA fine-tuning experiment focused only on expert weights in a MoE model.",
+    before_after_angle:
+      "Before: MoE fine-tuning is expensive in VRAM. After: expert-focused LoRA can provide cheaper adaptation.",
+  },
+  "adapterhub-adapters": {
+    problem_solved:
+      "Teams need a modular way to train and reuse adapters across domains and tasks.",
+    what_it_does:
+      "Provides adapter composition, adapter merging, QLoRA support, and modular transfer learning workflows.",
+    sample_project:
+      "Build a concept with finance, support, and Azerbaijani tone adapters for one base model.",
+    before_after_angle:
+      "Before: each task needs a separate model. After: modular adapters provide task-specific behavior.",
+  },
+  "m-lora": {
+    problem_solved:
+      "Training many domain adapters can create GPU utilization and latency problems.",
+    what_it_does:
+      "Focuses on fine-tuning many LoRA/QLoRA adapters at the same time on one base model.",
+    sample_project:
+      "Train three adapters for the same base model: legal, finance, and customer support.",
+    before_after_angle:
+      "Before: adapters are trained one by one. After: multi-LoRA scheduling can be compared by throughput.",
+  },
+  lorax: {
+    problem_solved:
+      "Deploying a separate endpoint for every fine-tuned model is expensive.",
+    what_it_does:
+      "Serves many LoRA adapters on a shared base model with dynamic adapter loading and routing.",
+    sample_project:
+      "Train three LoRA adapters and build a dynamic adapter routing demo with LoRAX.",
+    before_after_angle:
+      "Before: every adapter needs a separate endpoint. After: one shared base model can dynamically load adapters.",
+  },
+  simpletuner: {
+    problem_solved:
+      "Image and video generation models need production-like LoRA training and job orchestration.",
+    what_it_does:
+      "Provides a training toolkit for diffusion model fine-tuning, including FLUX, SDXL, SD3, and video generation models.",
+    sample_project:
+      "Train a brand-style LoRA that teaches a FLUX or SDXL model a consistent product visual identity.",
+    before_after_angle:
+      "Before: the image model does not preserve brand style. After: LoRA produces more consistent brand visuals.",
+  },
+  honcho: {
+    problem_solved:
+      "Agents may store memory but fail to update a useful user model through reasoning.",
+    what_it_does:
+      "Provides a reasoning memory layer for stateful agents across people, projects, sessions, and ideas.",
+    before_after_angle:
+      "Before: the assistant behaves like a reminder tool. After: it makes proactive suggestions based on a user model.",
+  },
+  memu: {
+    problem_solved:
+      "Proactive 24/7 agents often fail to structure user routines and long-term preferences.",
+    what_it_does:
+      "Extracts structured memory from multimodal inputs and creates a hierarchical memory file system.",
+    before_after_angle:
+      "Before: the assistant only responds when asked. After: it offers proactive help based on learned routines.",
+  },
+  metarank: {
+    problem_solved: "Search and listing pages often show the same results to every user.",
+    what_it_does:
+      "Personalizes product listings, articles, search results, and recommendations through a low-code learning-to-rank service.",
+    before_after_angle:
+      "Before: search results are ordered by static relevance. After: ranking is personalized using user behavior.",
+  },
+  gorse: {
+    problem_solved:
+      "Recommendation backends for products or content are often written from scratch.",
+    what_it_does:
+      "Provides a Go-based open-source recommender engine using users, items, and feedback.",
+    before_after_angle:
+      "Before: trending repositories are the same for everyone. After: users get personalized repository lists based on interests.",
+  },
+  recbole: {
+    problem_solved:
+      "Recommendation algorithms need a unified experiment framework for fair comparison.",
+    what_it_does:
+      "Provides a PyTorch-based framework for 100+ recommendation models and multiple recommendation tasks.",
+    before_after_angle:
+      "Before: recommendations are random or trend-based. After: RecBole produces behavior-based top-N recommendations.",
+  },
+  cornac: {
+    problem_solved:
+      "It is difficult to include text, image, and social features in recommendation models.",
+    what_it_does:
+      "Provides a comparative framework for multimodal recommender systems.",
+    before_after_angle:
+      "Before: recommendations only use interaction data. After: image and text metadata improve cold-start recommendations.",
+  },
+  vespa: {
+    problem_solved:
+      "Search, vector retrieval, and ranking personalization are often built in separate systems.",
+    what_it_does:
+      "Provides a scalable engine for search, vector search, tensor ranking, and recommendation serving.",
+    before_after_angle:
+      "Before: search only uses query relevance. After: user embeddings and behavior influence the ranking score.",
+  },
+  promptfoo: {
+    problem_solved: "Prompt and model comparisons are often not cost-aware.",
+    what_it_does:
+      "Provides an open-source LLM evaluation framework for prompts, models, RAG, and agents with caching plus cost/token reporting workflows.",
+    sample_project:
+      "Build an accuracy, latency, and cost table for 20 prompt variants.",
+    before_after_angle:
+      "Before: prompt selection is manual. After: promptfoo provides a token-aware evaluation matrix.",
+  },
+  garak: {
+    problem_solved:
+      "LLM applications are not systematically tested for prompt injection, jailbreaks, leakage, and hallucination weaknesses.",
+    what_it_does:
+      "Provides an NVIDIA-backed open-source LLM vulnerability scanner with probes for prompt injection, data leakage, jailbreaks, and related risks.",
+    sample_project:
+      "Run garak prompt injection probes against my own chatbot endpoint.",
+    before_after_angle:
+      "Before: security is checked with manual prompts. After: garak reports vulnerable categories.",
+  },
+  dify: {
+    problem_solved:
+      "LLM apps, RAG pipelines, workflows, agents, and observability are often built separately.",
+    what_it_does:
+      "Provides an open-source LLM app platform with knowledge bases, RAG, agent workflows, model management, and observability.",
+  },
+  ragflow: {
+    problem_solved:
+      "Complex PDFs, tables, scanned documents, and formatted reports do not work well with basic chunking.",
+    what_it_does:
+      "Provides a deep document understanding-based open-source RAG engine with citations, parsing, and enterprise RAG workflows.",
+  },
+  quivr: {
+    problem_solved:
+      "Personal and team knowledge bases need a fast, opinionated RAG core.",
+    what_it_does:
+      "Provides a second brain-style RAG platform/core with any-file ingestion, custom RAG, tools, and internet search support.",
+  },
+  "rtp-llm": {
+    problem_solved:
+      "Industrial-scale LLM serving needs a production-proven, high-performance engine.",
+    what_it_does:
+      "Provides an Alibaba open-source LLM inference acceleration engine with batching, GPU memory management, prefill/decode separation, and multi-hardware support.",
+    before_after_angle:
+      "Before: a generic server sees higher latency under heavy load. After: RTP-LLM demonstrates an industrial serving architecture.",
+  },
+  mooncake: {
+    problem_solved:
+      "KV cache movement and reuse are major bottlenecks in disaggregated LLM serving.",
+    what_it_does:
+      "Provides Moonshot AI/Kimi serving components focused on KV-cache-centric disaggregated serving through Transfer Engine and Mooncake Store.",
+    sample_project:
+      "Build a KV-cache reuse demo for repeated long-context workloads.",
+    before_after_angle:
+      "Before: long prompts are recomputed on every request. After: a Mooncake-style cache store shows reuse.",
+  },
+  "bitnet-cpp": {
+    problem_solved:
+      "1-bit and ternary LLMs need a dedicated efficient inference framework.",
+    what_it_does:
+      "Provides the official inference framework inside Microsoft's BitNet repository for 1-bit LLM inference, benchmarking, and deployment.",
+    sample_project:
+      "Run the BitNet b1.58 model on CPU and compare it with a normal quantized model.",
+    before_after_angle:
+      "Before: a normal low-bit model is still memory-heavy. After: a 1-bit model has a much smaller memory footprint.",
+  },
+  feast: {
+    problem_solved:
+      "Real-time recommendation models often do not receive fresh user, item, and context features.",
+    before_after_angle:
+      "Before: the model uses stale batch features. After: Feast online features enable real-time personalization.",
+  },
+};
+
 function normName(name) {
   return String(name || "")
     .toLowerCase()
@@ -202,7 +486,7 @@ function writeFile(filePath, content) {
 }
 
 function copyIfExists(source, target) {
-  if (!fs.existsSync(source)) return;
+  if (!fs.existsSync(source) || fs.existsSync(target)) return;
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.copyFileSync(source, target);
 }
@@ -226,11 +510,12 @@ const normalized = deduped.map((item, idx) => {
   const slug = `${number}-${frameworkSlug}`;
   const categorySlug = categoryFor(item);
   const categoryTitle = CATEGORY_META[categorySlug].title;
+  const englishOverride = ENGLISH_FIELD_OVERRIDES[frameworkSlug] || {};
   const problem =
     cleanText(item.problem_solved) || cleanText(item.vlm_problem_solved) || "TBD";
   const officialUrl = cleanText(item.official_url) || cleanText(item.docs_url);
   const docsUrl = cleanText(item.docs_url) || cleanText(item.official_url);
-  return {
+  const normalizedItem = {
     experiment_number: number,
     slug,
     name: cleanText(item.name),
@@ -245,7 +530,7 @@ const normalized = deduped.map((item, idx) => {
     docs_url: docsUrl,
     sample_project: cleanText(item.sample_project) || "TBD",
     before_after_angle: cleanText(item.before_after_angle) || cleanText(item.before_after) || null,
-    linkedin_hook: cleanText(item.linkedin_hook) || cleanText(item.best_post_angle) || null,
+    linkedin_hook: null,
     selected_from_source: "experiments.txt",
     tested_at: null,
     published_at: null,
@@ -254,6 +539,7 @@ const normalized = deduped.map((item, idx) => {
     experiment_url: null,
     score: null,
   };
+  return { ...normalizedItem, ...englishOverride };
 });
 
 const byCategory = {};

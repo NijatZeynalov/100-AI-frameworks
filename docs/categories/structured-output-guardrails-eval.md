@@ -14,5 +14,5 @@ Schema-first outputs, input/output safety checks, red-team style testing, and pr
 |---|---|---|---|---|
 | 011 | BAML | Pending | PDF invoice extraction workflow with typed LLM functions and testable schemas. | [Experiment](../experiments/011-baml.md) |
 | 012 | Guardrails AI | Pending | Healthcare intake assistant with PII checks, safety filters, and structured output validation. | [Experiment](../experiments/012-guardrails-ai.md) |
-| 027 | promptfoo | Pending | 20 prompt variantı üçün accuracy, latency və cost table çıxar. | [Experiment](../experiments/027-promptfoo.md) |
-| 028 | garak | Pending | Own chatbot endpoint-inə garak prompt injection probe-ları run et. | [Experiment](../experiments/028-garak.md) |
+| 027 | promptfoo | Pending | Build an accuracy, latency, and cost table for 20 prompt variants. | [Experiment](../experiments/027-promptfoo.md) |
+| 028 | garak | Pending | Run garak prompt injection probes against my own chatbot endpoint. | [Experiment](../experiments/028-garak.md) |

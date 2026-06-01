@@ -279,7 +279,7 @@ body.homepage .col-md-9[role="main"] {
   box-shadow: var(--lab-shadow);
   display: grid;
   gap: 36px;
-  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+  grid-template-columns: minmax(0, 0.95fr) minmax(420px, 1.05fr);
   margin: 4px 0 28px;
   padding: 76px 64px;
   position: relative;
@@ -333,13 +333,12 @@ body.homepage .col-md-9[role="main"] {
 }
 
 .lab-hero-media img {
-  aspect-ratio: 1 / 1;
-  border: 1px solid rgba(220, 231, 245, 0.9);
-  border-radius: 8px;
-  box-shadow: 0 24px 60px rgba(7, 23, 47, 0.12);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   display: block;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
