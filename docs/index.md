@@ -38,7 +38,7 @@
     <a href="categories/recsys/">Recommendation Systems</a>
     <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
     <a href="categories/computer-vision/">Computer Vision</a>
-    <a href="categories/prompt-optimization-eval/">Prompt Optimization</a>
+    <a href="categories/prompt-optimization-eval/">Prompt Optimization & Evaluation</a>
     <a href="categories/llm-inference/">LLM Inference</a>
   </div>
 </section>
