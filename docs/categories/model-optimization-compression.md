@@ -12,6 +12,7 @@ Quantization, binarization, reduced-precision training, model compression, and e
 
 | # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
+| 035 | BitNet.cpp | Pending | Run the BitNet b1.58 model on CPU and compare it with a normal quantized model. | [Experiment](../experiments/035-bitnet-cpp.md) |
 | 044 | Larq | Pending | Train a compact binarized image classifier and compare model size, latency, and accuracy against a standard TensorFlow/Keras baseline. | [Experiment](../experiments/044-larq.md) |
 | 045 | AIMET | Pending | Quantize a PyTorch or ONNX vision model with AIMET and compare accuracy, latency, and exported model behavior. | [Experiment](../experiments/045-aimet.md) |
 | 046 | HQQ | Pending | Quantize a small open-source language model with HQQ and compare memory usage, throughput, and output quality against the original model. | [Experiment](../experiments/046-hqq.md) |

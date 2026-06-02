@@ -6,11 +6,11 @@ Pending
 
 ## Category
 
-Personalization & Recommendation Systems
+MLOps & Model Serving
 
 ## Tags
 
-`#100AIFrameworks`, `#recsys`
+`#100AIFrameworks`, `#mlops-model-serving`
 
 ## Problem
 

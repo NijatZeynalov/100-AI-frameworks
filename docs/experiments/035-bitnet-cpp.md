@@ -6,11 +6,11 @@ Pending
 
 ## Category
 
-LLM Inference & Serving
+Model Optimization & Compression
 
 ## Tags
 
-`#100AIFrameworks`, `#llm-inference`
+`#100AIFrameworks`, `#model-optimization-compression`
 
 ## Problem
 

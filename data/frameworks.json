@@ -435,11 +435,11 @@
     "experiment_number": "018",
     "slug": "018-lorax",
     "name": "LoRAX",
-    "primary_category": "LoRA, Fine-tuning & Adapter Infrastructure",
-    "primary_category_slug": "lora-finetuning",
+    "primary_category": "LLM Inference & Serving",
+    "primary_category_slug": "llm-inference",
     "secondary_tags": [
       "100AIFrameworks",
-      "lora-finetuning"
+      "llm-inference"
     ],
     "status": "Pending",
     "problem_solved": "Deploying a separate endpoint for every fine-tuned model is expensive.",
@@ -894,11 +894,11 @@
     "experiment_number": "035",
     "slug": "035-bitnet-cpp",
     "name": "BitNet.cpp",
-    "primary_category": "LLM Inference & Serving",
-    "primary_category_slug": "llm-inference",
+    "primary_category": "Model Optimization & Compression",
+    "primary_category_slug": "model-optimization-compression",
     "secondary_tags": [
       "100AIFrameworks",
-      "llm-inference"
+      "model-optimization-compression"
     ],
     "status": "Pending",
     "problem_solved": "1-bit and ternary LLMs need a dedicated efficient inference framework.",
@@ -921,11 +921,11 @@
     "experiment_number": "036",
     "slug": "036-feast",
     "name": "Feast",
-    "primary_category": "Personalization & Recommendation Systems",
-    "primary_category_slug": "recsys",
+    "primary_category": "MLOps & Model Serving",
+    "primary_category_slug": "mlops-model-serving",
     "secondary_tags": [
       "100AIFrameworks",
-      "recsys"
+      "mlops-model-serving"
     ],
     "status": "Pending",
     "problem_solved": "Real-time recommendation models often do not receive fresh user, item, and context features.",

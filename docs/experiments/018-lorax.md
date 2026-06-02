@@ -6,11 +6,11 @@ Pending
 
 ## Category
 
-LoRA, Fine-tuning & Adapter Infrastructure
+LLM Inference & Serving
 
 ## Tags
 
-`#100AIFrameworks`, `#lora-finetuning`
+`#100AIFrameworks`, `#llm-inference`
 
 ## Problem
 

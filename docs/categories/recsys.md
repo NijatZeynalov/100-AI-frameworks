@@ -17,4 +17,3 @@ Ranking, feature freshness, recommendation backends, and retrieval plus ranking 
 | 024 | RecBole | Pending | Compare sequential vs collaborative filtering models on e-commerce click data. | [Experiment](../experiments/024-recbole.md) |
 | 025 | Cornac | Pending | Fashion recommender using product images, descriptions, and user interactions. | [Experiment](../experiments/025-cornac.md) |
 | 026 | Vespa | Pending | Personalized news search with user embeddings and query-time ranking features. | [Experiment](../experiments/026-vespa.md) |
-| 036 | Feast | Pending | E-commerce recommender using recent views, cart additions and purchase features. | [Experiment](../experiments/036-feast.md) |
