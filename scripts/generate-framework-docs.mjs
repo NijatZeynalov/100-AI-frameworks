@@ -29,6 +29,18 @@ const CATEGORY_META = {
     problems:
       "LoRA variants, multi-adapter training, adapter serving, and diffusion fine-tuning workflows.",
   },
+  "model-optimization-compression": {
+    title: "Model Optimization & Compression",
+    goal: "Test practical techniques for making models smaller, faster, and cheaper to deploy.",
+    problems:
+      "Quantization, binarization, reduced-precision training, model compression, and efficient edge or accelerator deployment.",
+  },
+  "mlops-model-serving": {
+    title: "MLOps & Model Serving",
+    goal: "Evaluate the infrastructure layer needed to move model experiments into reliable production workflows.",
+    problems:
+      "Workflow orchestration, experiment versioning, scalable compute, inference servers, batching, multi-model serving, and deployment operations.",
+  },
   recsys: {
     title: "Personalization & Recommendation Systems",
     goal: "Measure real-world recommendation and personalization performance through practical projects.",
@@ -146,6 +158,8 @@ const docsIndex = `# #100AI Frameworks Lab
     <a href="categories/lora-finetuning/">LoRA & Fine-tuning</a>
     <a href="categories/computer-vision/">Computer Vision</a>
     <a href="categories/prompt-optimization-eval/">Prompt Optimization & Evaluation</a>
+    <a href="categories/model-optimization-compression/">Model Optimization & Compression</a>
+    <a href="categories/mlops-model-serving/">MLOps & Model Serving</a>
     <a href="categories/llm-inference/">LLM Inference</a>
   </div>
 </section>
@@ -471,6 +485,8 @@ nav:
       - Prompt Optimization & Eval: categories/prompt-optimization-eval.md
       - Computer Vision: categories/computer-vision.md
       - LoRA & Fine-tuning: categories/lora-finetuning.md
+      - Model Optimization & Compression: categories/model-optimization-compression.md
+      - MLOps & Model Serving: categories/mlops-model-serving.md
       - RecSys: categories/recsys.md
       - Knowledge Base: categories/knowledge-base.md
       - LLM Inference: categories/llm-inference.md

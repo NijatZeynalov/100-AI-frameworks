@@ -1,10 +1,10 @@
 # Progress Dashboard
 
 - Total target: 100
-- Currently selected: 42
-- Pending: 42
+- Currently selected: 49
+- Pending: 49
 - Tested: 0
-- Categories covered: 7
+- Categories covered: 9
 
 | # | Framework | Category | Status | Planned project | Official Docs | GitHub | Experiment Page |
 |---|---|---|---|---|---|---|---|
@@ -50,3 +50,10 @@
 | 041 | GEPA | Prompt Optimization & Evaluation | Pending | Optimize a RAG answer-generation prompt using a small validation set and compare baseline versus optimized outputs. | [Official](https://gepa-ai.github.io/gepa/) | [GitHub](https://github.com/gepa-ai/gepa) | [Page](experiments/041-gepa.md) |
 | 042 | TextGrad | Prompt Optimization & Evaluation | Pending | Optimize a reasoning prompt or agent response pipeline with text-gradient feedback and compare answer quality before and after optimization. | [Official](https://textgrad.com/) | [GitHub](https://github.com/zou-group/textgrad) | [Page](experiments/042-textgrad.md) |
 | 043 | ell | Prompt Optimization & Evaluation | Pending | Build a versioned prompt workflow with traced calls, compare prompt versions, and inspect outputs in Ell Studio. | [Official](https://docs.ell.so/) | [GitHub](https://github.com/MadcowD/ell) | [Page](experiments/043-ell.md) |
+| 044 | Larq | Model Optimization & Compression | Pending | Train a compact binarized image classifier and compare model size, latency, and accuracy against a standard TensorFlow/Keras baseline. | [Official](https://larq.dev/) | [GitHub](https://github.com/larq/larq) | [Page](experiments/044-larq.md) |
+| 045 | AIMET | Model Optimization & Compression | Pending | Quantize a PyTorch or ONNX vision model with AIMET and compare accuracy, latency, and exported model behavior. | [Official](https://quic.github.io/aimet-pages/releases/latest/overview/index.html) | [GitHub](https://github.com/quic/aimet) | [Page](experiments/045-aimet.md) |
+| 046 | HQQ | Model Optimization & Compression | Pending | Quantize a small open-source language model with HQQ and compare memory usage, throughput, and output quality against the original model. | [Official](https://dropbox.github.io/hqq_blog/) | [GitHub](https://github.com/dropbox/hqq) | [Page](experiments/046-hqq.md) |
+| 047 | Brevitas | Model Optimization & Compression | Pending | Train a quantization-aware classifier with Brevitas and export it for an accelerated inference target. | [Official](https://xilinx.github.io/brevitas/v0.12.1/) | [GitHub](https://github.com/Xilinx/brevitas) | [Page](experiments/047-brevitas.md) |
+| 048 | Metaflow | MLOps & Model Serving | Pending | Build a multi-step model training and evaluation workflow that runs locally first and can later scale to cloud compute. | [Official](https://metaflow.org/) | [GitHub](https://github.com/Netflix/metaflow) | [Page](experiments/048-metaflow.md) |
+| 049 | MLServer | MLOps & Model Serving | Pending | Serve a scikit-learn or Hugging Face model with MLServer and test REST/gRPC inference plus multi-model loading behavior. | [Official](https://docs.seldon.ai/mlserver) | [GitHub](https://github.com/SeldonIO/MLServer) | [Page](experiments/049-mlserver.md) |
+| 050 | Ragas | Prompt Optimization & Evaluation | Pending | Evaluate a RAG pipeline with faithfulness, context relevance, and answer quality metrics, then compare baseline versus improved retrieval settings. | [Official](https://docs.ragas.io/en/stable/getstarted/quickstart/) | [GitHub](https://github.com/explodinggradients/ragas) | [Page](experiments/050-ragas.md) |

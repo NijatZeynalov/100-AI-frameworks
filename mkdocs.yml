@@ -23,6 +23,8 @@ nav:
       - Prompt Optimization & Eval: categories/prompt-optimization-eval.md
       - Computer Vision: categories/computer-vision.md
       - LoRA & Fine-tuning: categories/lora-finetuning.md
+      - Model Optimization & Compression: categories/model-optimization-compression.md
+      - MLOps & Model Serving: categories/mlops-model-serving.md
       - RecSys: categories/recsys.md
       - Knowledge Base: categories/knowledge-base.md
       - LLM Inference: categories/llm-inference.md
@@ -70,3 +72,10 @@ nav:
       - 041 GEPA: experiments/041-gepa.md
       - 042 TextGrad: experiments/042-textgrad.md
       - 043 ell: experiments/043-ell.md
+      - 044 Larq: experiments/044-larq.md
+      - 045 AIMET: experiments/045-aimet.md
+      - 046 HQQ: experiments/046-hqq.md
+      - 047 Brevitas: experiments/047-brevitas.md
+      - 048 Metaflow: experiments/048-metaflow.md
+      - 049 MLServer: experiments/049-mlserver.md
+      - 050 Ragas: experiments/050-ragas.md

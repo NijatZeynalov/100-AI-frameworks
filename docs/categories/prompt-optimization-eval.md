@@ -19,3 +19,4 @@ Prompt-as-code workflows, prompt optimization, schema-first outputs, guardrails,
 | 041 | GEPA | Pending | Optimize a RAG answer-generation prompt using a small validation set and compare baseline versus optimized outputs. | [Experiment](../experiments/041-gepa.md) |
 | 042 | TextGrad | Pending | Optimize a reasoning prompt or agent response pipeline with text-gradient feedback and compare answer quality before and after optimization. | [Experiment](../experiments/042-textgrad.md) |
 | 043 | ell | Pending | Build a versioned prompt workflow with traced calls, compare prompt versions, and inspect outputs in Ell Studio. | [Experiment](../experiments/043-ell.md) |
+| 050 | Ragas | Pending | Evaluate a RAG pipeline with faithfulness, context relevance, and answer quality metrics, then compare baseline versus improved retrieval settings. | [Experiment](../experiments/050-ragas.md) |
