@@ -389,6 +389,10 @@ TBD
 function buildTestedExperimentPage(framework) {
   const scorecard = framework.scorecard || {};
   const projectName = framework.project_name || framework.sample_project || framework.name;
+  const keyFindings =
+    Array.isArray(framework.experiment_findings) && framework.experiment_findings.length > 0
+      ? framework.experiment_findings.slice(0, 4)
+      : [];
   return `# ${framework.experiment_number} - ${framework.name}
 
 ## Status
@@ -409,23 +413,19 @@ ${framework.primary_category}
 
 ## Problem
 
-${framework.problem_solved || "TBD"}
+${framework.framework_problem || framework.problem_solved || "TBD"}
 
-## What it does
+## How ${framework.name} helps
 
-${framework.what_it_does || "TBD"}
+${framework.framework_solution || framework.what_it_does || "TBD"}
 
-## Built project
+## Test project
 
 ${framework.project_summary || framework.sample_project || "TBD"}
 
-## Stack
-
-${markdownList(framework.project_stack)}
-
 ## Experiment findings
 
-${markdownList(framework.experiment_findings)}
+${markdownList(keyFindings)}
 
 ## What worked
 
@@ -434,10 +434,6 @@ ${markdownList(framework.what_worked)}
 ## Limitations
 
 ${markdownList(framework.limitations)}
-
-## Production notes
-
-${markdownList(framework.production_notes)}
 
 ## Before / After
 
@@ -451,7 +447,6 @@ ${framework.before_after_angle || "TBD"}
 | Documentation Quality | ${scorecardValue(scorecard, "documentation_quality")} |
 | Developer Experience | ${scorecardValue(scorecard, "developer_experience")} |
 | Output Quality | ${scorecardValue(scorecard, "output_quality")} |
-| Debuggability | ${scorecardValue(scorecard, "debuggability")} |
 | Production Readiness | ${scorecardValue(scorecard, "production_readiness")} |
 | Hiring Signal | ${scorecardValue(scorecard, "hiring_signal")} |
 
@@ -525,10 +520,12 @@ for (const framework of frameworks) {
   }
 
   const results = buildExperimentResults(framework);
-  writeFile(
-    path.join(repoRoot, "experiments", framework.slug, "results.json"),
-    `${JSON.stringify(results, null, 2)}\n`,
-  );
+  if (!framework.custom_experiment) {
+    writeFile(
+      path.join(repoRoot, "experiments", framework.slug, "results.json"),
+      `${JSON.stringify(results, null, 2)}\n`,
+    );
+  }
 }
 
 writeFile(
