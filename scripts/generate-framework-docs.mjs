@@ -70,6 +70,14 @@ function mdEscape(value) {
   return String(value || "").replace(/\|/g, "\\|");
 }
 
+function htmlEscape(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
 function sortByExperimentNumber(a, b) {
   return String(a.experiment_number).localeCompare(String(b.experiment_number));
 }
@@ -109,6 +117,49 @@ const pending = frameworks.filter((item) => item.status === "Pending").length;
 const tested = frameworks.filter((item) => item.status === "Tested").length;
 const categoryCount = Object.keys(byCategory).length;
 
+function buildLogoMarquee() {
+  const logoDir = path.join(repoRoot, "docs", "assets", "logos");
+  if (!fs.existsSync(logoDir)) return "";
+
+  const frameworkBySlug = new Map(frameworks.map((framework) => [framework.slug, framework]));
+  const logoFiles = fs
+    .readdirSync(logoDir)
+    .filter((file) => file.toLowerCase().endsWith(".png"))
+    .sort((a, b) => a.localeCompare(b));
+
+  if (logoFiles.length === 0) return "";
+
+  const logoItems = logoFiles
+    .map((file) => {
+      const slug = path.basename(file, ".png");
+      const name = frameworkBySlug.get(slug)?.name || slug.replace(/^\d{3}-/, "").replace(/-/g, " ");
+      return `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="${htmlEscape(name)} logo" loading="lazy" /></span>`;
+    })
+    .join("\n      ");
+
+  const duplicateItems = logoFiles
+    .map(
+      (file) =>
+        `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="" loading="lazy" /></span>`,
+    )
+    .join("\n      ");
+
+  return `<section class="logo-marquee-section" aria-label="Framework logos">
+  <div class="logo-marquee">
+    <div class="logo-marquee-track">
+      <div class="logo-marquee-group">
+      ${logoItems}
+      </div>
+      <div class="logo-marquee-group" aria-hidden="true">
+      ${duplicateItems}
+      </div>
+    </div>
+  </div>
+</section>
+
+`;
+}
+
 const readme = `# #100AI Frameworks Lab
 
 ![#100AI Frameworks Lab](docs/assets/lab-cover.png)
@@ -146,7 +197,7 @@ const docsIndex = `# #100AI Frameworks Lab
   <article><strong>${categoryCount}</strong><span>categories</span></article>
 </section>
 
-<section class="lab-section">
+${buildLogoMarquee()}<section class="lab-section">
   <div class="section-heading">
     <p>Focus areas</p>
     <h2>Organized by engineering problem, not hype.</h2>

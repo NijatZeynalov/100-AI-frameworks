@@ -437,6 +437,72 @@ body.homepage .col-md-9[role="main"] {
   margin-top: 10px;
 }
 
+.logo-marquee-section {
+  margin: 8px 0 46px;
+  overflow: hidden;
+}
+
+.logo-marquee {
+  border-bottom: 1px solid rgba(220, 231, 245, 0.78);
+  border-top: 1px solid rgba(220, 231, 245, 0.78);
+  overflow: hidden;
+  padding: 16px 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+}
+
+.logo-marquee-track {
+  animation: logo-marquee 42s linear infinite;
+  display: flex;
+  gap: 0;
+  width: max-content;
+  will-change: transform;
+}
+
+.logo-marquee:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+.logo-marquee-group {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  padding-right: 14px;
+}
+
+.logo-marquee-item {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(220, 231, 245, 0.9);
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 64px;
+  justify-content: center;
+  padding: 12px 20px;
+  width: 154px;
+}
+
+.logo-marquee-item img {
+  display: block;
+  height: auto;
+  max-height: 38px;
+  max-width: 112px;
+  object-fit: contain;
+  width: auto;
+}
+
+@keyframes logo-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 .lab-section {
   margin: 52px 0;
 }
@@ -551,6 +617,20 @@ body.homepage .col-md-9[role="main"] {
   .flow-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .logo-marquee-section {
+    margin-bottom: 36px;
+  }
+
+  .logo-marquee-item {
+    height: 58px;
+    width: 132px;
+  }
+
+  .logo-marquee-item img {
+    max-height: 34px;
+    max-width: 96px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -574,5 +654,20 @@ body.homepage .col-md-9[role="main"] {
   .category-grid,
   .flow-grid {
     grid-template-columns: 1fr;
+  }
+
+  .logo-marquee {
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 14%, #000 86%, transparent);
+  }
+
+  .logo-marquee-track {
+    animation-duration: 34s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee-track {
+    animation: none;
   }
 }
