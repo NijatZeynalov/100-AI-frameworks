@@ -14,33 +14,27 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
+Image and video generation models need production-like LoRA training and job orchestration.
+
+## How SimpleTuner helps
+
+Provides a training toolkit for diffusion model fine-tuning, including FLUX, SDXL, SD3, and video generation models.
+
+## Test project
+
+Train a brand-style LoRA that teaches a FLUX or SDXL model a consistent product visual identity.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.simpletuner.io/](https://docs.simpletuner.io/)
+- GitHub: [https://github.com/bghira/SimpleTuner](https://github.com/bghira/SimpleTuner)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/019-simpletuner)
 
-## Notes
+## Tested at
 
 TBD

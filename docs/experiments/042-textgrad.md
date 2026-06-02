@@ -14,33 +14,27 @@ Prompt Optimization & Evaluation
 
 ## Problem
 
+Text-based systems are hard to optimize with standard gradients, especially when they include prompts, agents, and tool calls.
+
+## How TextGrad helps
+
+Provides a PyTorch-like interface for text optimization using natural-language feedback as LLM gradients.
+
+## Test project
+
+Optimize a reasoning prompt or agent response pipeline with text-gradient feedback and compare answer quality before and after optimization.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://textgrad.readthedocs.io/](https://textgrad.readthedocs.io/)
+- GitHub: [https://github.com/zou-group/textgrad](https://github.com/zou-group/textgrad)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/042-textgrad)
 
-## Notes
+## Tested at
 
 TBD

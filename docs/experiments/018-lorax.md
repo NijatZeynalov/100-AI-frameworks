@@ -14,33 +14,27 @@ LLM Inference & Serving
 
 ## Problem
 
+Deploying a separate endpoint for every fine-tuned model is expensive.
+
+## How LoRAX helps
+
+Serves many LoRA adapters on a shared base model with dynamic adapter loading and routing.
+
+## Test project
+
+Train three LoRA adapters and build a dynamic adapter routing demo with LoRAX.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://predibase.github.io/lorax/](https://predibase.github.io/lorax/)
+- GitHub: [https://github.com/predibase/lorax](https://github.com/predibase/lorax)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/018-lorax)
 
-## Notes
+## Tested at
 
 TBD

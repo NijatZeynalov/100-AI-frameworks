@@ -14,33 +14,27 @@ Prompt Optimization & Evaluation
 
 ## Problem
 
+LLM apps need protection against input/output risks, PII leakage, unsafe content, and malformed structured data.
+
+## How Guardrails AI helps
+
+Provides input/output guards, validators, risk detection, and structured data validation.
+
+## Test project
+
+Healthcare intake assistant with PII checks, safety filters, and structured output validation.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://guardrailsai.com/guardrails/docs](https://guardrailsai.com/guardrails/docs)
+- GitHub: [https://github.com/guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/012-guardrails-ai)
 
-## Notes
+## Tested at
 
 TBD

@@ -14,33 +14,27 @@ Computer Vision Frameworks
 
 ## Problem
 
+Medical imaging projects need domain-specific deep learning tools for training, inference, transforms, and evaluation.
+
+## How MONAI helps
+
+Provides a PyTorch-based framework and ecosystem for deep learning workflows in healthcare imaging.
+
+## Test project
+
+Build a medical image segmentation experiment with MONAI transforms, training utilities, and sliding-window inference.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.monai.io/](https://docs.monai.io/)
+- GitHub: [https://github.com/Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/039-monai)
 
-## Notes
+## Tested at
 
 TBD

@@ -16,7 +16,6 @@
     "github_url": "https://github.com/langchain-ai/langmem",
     "docs_url": "https://langchain-ai.github.io/langmem/",
     "sample_project": "Doctor-facing clinical memory assistant with patient creation, SOAP draft generation, memory candidate extraction, human review, returning-patient Q&A, and memory updates.",
-    "before_after_angle": "Before: the app has to pass all relevant history through the prompt every time. After: LangMem lets the app retrieve scoped long-term memories when they are needed.",
     "linkedin_hook": null,
     "selected_from_source": "frameworks.json",
     "tested_at": "2026-06-02",
@@ -66,9 +65,7 @@
       "developer_experience": "8/10",
       "output_quality": "8/10",
       "debuggability": "7/10",
-      "production_readiness": "6/10",
-      "before_after_value": "9/10",
-      "hiring_signal": "9/10"
+      "production_readiness": "6/10"
     },
     "framework_problem": "LLM agents usually do not have reliable long-term memory. They forget user or domain context between sessions, and when developers add memory manually it quickly becomes hard to search, update, scope, and trust.",
     "framework_solution": "LangMem provides memory primitives for agents: scoped namespaces, memory search, memory creation tools, and LangGraph store integration. It gives the application a structured way to save and retrieve long-term context instead of treating every interaction as a fresh prompt."

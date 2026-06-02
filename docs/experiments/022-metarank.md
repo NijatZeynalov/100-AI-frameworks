@@ -14,33 +14,27 @@ Personalization & Recommendation Systems
 
 ## Problem
 
+Search and listing pages often show the same results to every user.
+
+## How Metarank helps
+
+Personalizes product listings, articles, search results, and recommendations through a low-code learning-to-rank service.
+
+## Test project
+
+Personalized product search reranker using clicks, views, and purchases.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.metarank.ai/](https://docs.metarank.ai/)
+- GitHub: [https://github.com/metarank/metarank](https://github.com/metarank/metarank)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/022-metarank)
 
-## Notes
+## Tested at
 
 TBD

@@ -14,33 +14,27 @@ Personalization & Recommendation Systems
 
 ## Problem
 
+Recommendation backends for products or content are often written from scratch.
+
+## How Gorse helps
+
+Provides a Go-based open-source recommender engine using users, items, and feedback.
+
+## Test project
+
+GitHub repository recommender based on stars, topics, and user interactions.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://gorse.io/](https://gorse.io/)
+- GitHub: [https://github.com/gorse-io/gorse](https://github.com/gorse-io/gorse)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/023-gorse)
 
-## Notes
+## Tested at
 
 TBD

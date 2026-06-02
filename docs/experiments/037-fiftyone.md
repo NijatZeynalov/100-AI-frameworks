@@ -14,33 +14,27 @@ Computer Vision Frameworks
 
 ## Problem
 
+Visual AI teams need better dataset inspection, embeddings visualization, error analysis, and model-output comparison workflows.
+
+## How FiftyOne helps
+
+Provides tools to visualize, label, curate, and evaluate visual datasets and model predictions.
+
+## Test project
+
+Analyze false positives and false negatives for a detector in an interactive UI.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.voxel51.com/](https://docs.voxel51.com/)
+- GitHub: [https://github.com/voxel51/fiftyone](https://github.com/voxel51/fiftyone)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/037-fiftyone)
 
-## Notes
+## Tested at
 
 TBD

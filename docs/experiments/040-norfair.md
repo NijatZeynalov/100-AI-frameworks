@@ -14,33 +14,27 @@ Computer Vision Frameworks
 
 ## Problem
 
+Object detection projects often need lightweight real-time tracking without rewriting a full tracking stack.
+
+## How Norfair helps
+
+Provides a customizable Python library for real-time multi-object tracking that can work with detections from different detectors.
+
+## Test project
+
+Add tracking IDs to detections from a YOLO-style detector and evaluate object continuity across video frames.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://tryolabs.github.io/norfair/2.2/](https://tryolabs.github.io/norfair/2.2/)
+- GitHub: [https://github.com/tryolabs/norfair](https://github.com/tryolabs/norfair)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/040-norfair)
 
-## Notes
+## Tested at
 
 TBD

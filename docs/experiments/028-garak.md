@@ -14,33 +14,27 @@ Prompt Optimization & Evaluation
 
 ## Problem
 
+LLM applications are not systematically tested for prompt injection, jailbreaks, leakage, and hallucination weaknesses.
+
+## How garak helps
+
+Provides an NVIDIA-backed open-source LLM vulnerability scanner with probes for prompt injection, data leakage, jailbreaks, and related risks.
+
+## Test project
+
+Run garak prompt injection probes against my own chatbot endpoint.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://garak.ai/](https://garak.ai/)
+- GitHub: [https://github.com/NVIDIA/garak](https://github.com/NVIDIA/garak)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/028-garak)
 
-## Notes
+## Tested at
 
 TBD

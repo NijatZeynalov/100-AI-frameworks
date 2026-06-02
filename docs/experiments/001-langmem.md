@@ -49,10 +49,6 @@ To test LangMem, I built a small doctor-facing patient memory assistant. The med
 - Memory extraction quality depends on the LLM and schema validation around it.
 - Production use would need persistence, audit logs, access control, and privacy controls.
 
-## Before / After
-
-Before: the app has to pass all relevant history through the prompt every time. After: LangMem lets the app retrieve scoped long-term memories when they are needed.
-
 ## Scorecard
 
 | Criteria | Score |
@@ -62,7 +58,6 @@ Before: the app has to pass all relevant history through the prompt every time. 
 | Developer Experience | 8/10 |
 | Output Quality | 8/10 |
 | Production Readiness | 6/10 |
-| Hiring Signal | 9/10 |
 
 ## Final verdict
 

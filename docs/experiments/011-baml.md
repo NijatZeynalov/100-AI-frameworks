@@ -14,33 +14,27 @@ Prompt Optimization & Evaluation
 
 ## Problem
 
+Managing prompts as strings creates versioning and structured output reliability problems.
+
+## How BAML helps
+
+Turns prompt engineering into schema engineering through a DSL for reliable LLM functions.
+
+## Test project
+
+PDF invoice extraction workflow with typed LLM functions and testable schemas.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.boundaryml.com/](https://docs.boundaryml.com/)
+- GitHub: [https://github.com/BoundaryML/baml](https://github.com/BoundaryML/baml)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/011-baml)
 
-## Notes
+## Tested at
 
 TBD

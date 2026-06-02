@@ -333,33 +333,27 @@ ${framework.primary_category}
 
 ## Problem
 
+${framework.framework_problem || framework.problem_solved || "TBD"}
+
+## How ${framework.name} helps
+
+${framework.framework_solution || framework.what_it_does || "TBD"}
+
+## Test project
+
+${framework.sample_project || "TBD"}
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: ${framework.status}.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -369,18 +363,19 @@ This experiment has not been run yet. Status: ${framework.status}.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: ${framework.docs_url ? `[${framework.docs_url}](${framework.docs_url})` : "TBD"}
+- GitHub: ${framework.github_url ? `[${framework.github_url}](${framework.github_url})` : "TBD"}
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/${framework.slug})
 
-## Notes
+## Tested at
 
 TBD
 `;
@@ -435,10 +430,6 @@ ${markdownList(framework.what_worked)}
 
 ${markdownList(framework.limitations)}
 
-## Before / After
-
-${framework.before_after_angle || "TBD"}
-
 ## Scorecard
 
 | Criteria | Score |
@@ -448,7 +439,6 @@ ${framework.before_after_angle || "TBD"}
 | Developer Experience | ${scorecardValue(scorecard, "developer_experience")} |
 | Output Quality | ${scorecardValue(scorecard, "output_quality")} |
 | Production Readiness | ${scorecardValue(scorecard, "production_readiness")} |
-| Hiring Signal | ${scorecardValue(scorecard, "hiring_signal")} |
 
 ## Final verdict
 
@@ -484,8 +474,6 @@ function buildExperimentResults(framework) {
       output_quality: framework.scorecard?.output_quality ?? null,
       debuggability: framework.scorecard?.debuggability ?? null,
       production_readiness: framework.scorecard?.production_readiness ?? null,
-      before_after_value: framework.scorecard?.before_after_value ?? null,
-      hiring_signal: framework.scorecard?.hiring_signal ?? null,
     },
     results: {
       summary: framework.project_summary || null,
@@ -548,31 +536,25 @@ Category Name
 
 TBD
 
-## What it does
+## How Framework Name helps
 
 TBD
 
-## Planned project
+## Test project
 
 TBD
 
-## Why this framework
+## Experiment findings
 
 TBD
 
-## Current status
+## What worked
 
-This experiment has not been run yet. Status: Pending.
+TBD
 
-## Planned evaluation criteria
+## Limitations
 
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
+TBD
 
 ## Scorecard
 
@@ -582,18 +564,19 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
 - Official docs: TBD
 - GitHub: TBD
-- Weekly log: Not assigned yet
 - Experiment folder: GitHub folder link
 
-## Notes
+## Tested at
 
 TBD
 `,
@@ -610,9 +593,7 @@ writeFile(
 - Docs: TBD
 - DX: TBD
 - Output quality: TBD
-- Debuggability: TBD
 - Production potential: TBD
-- Hiring signal: TBD
 - Final verdict: TBD
 `,
 );

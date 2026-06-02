@@ -14,33 +14,27 @@ Model Optimization & Compression
 
 ## Problem
 
+Teams targeting reduced-precision deployment need a way to model quantized hardware data paths during training.
+
+## How Brevitas helps
+
+Provides PyTorch building blocks for quantization-aware training and reduced-precision model development, including export paths for inference acceleration.
+
+## Test project
+
+Train a quantization-aware classifier with Brevitas and export it for an accelerated inference target.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://xilinx.github.io/brevitas/v0.12.1/](https://xilinx.github.io/brevitas/v0.12.1/)
+- GitHub: [https://github.com/Xilinx/brevitas](https://github.com/Xilinx/brevitas)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/047-brevitas)
 
-## Notes
+## Tested at
 
 TBD

@@ -14,33 +14,27 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
+Personal and team knowledge bases need a fast, opinionated RAG core.
+
+## How Quivr helps
+
+Provides a second brain-style RAG platform/core with any-file ingestion, custom RAG, tools, and internet search support.
+
+## Test project
+
+Personal research knowledge base over PDFs, notes, and web articles.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://core.quivr.com/en/latest/](https://core.quivr.com/en/latest/)
+- GitHub: [https://github.com/QuivrHQ/quivr](https://github.com/QuivrHQ/quivr)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/031-quivr)
 
-## Notes
+## Tested at
 
 TBD

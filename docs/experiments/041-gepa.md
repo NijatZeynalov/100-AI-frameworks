@@ -14,33 +14,27 @@ Prompt Optimization & Evaluation
 
 ## Problem
 
+Prompt and system optimization often requires expensive trial-and-error without interpretable traces.
+
+## How GEPA helps
+
+Automatically optimizes prompts and AI system components using reflective prompt evolution, evaluation feedback, and adapters for systems such as DSPy, RAG, LangChain, and MCP.
+
+## Test project
+
+Optimize a RAG answer-generation prompt using a small validation set and compare baseline versus optimized outputs.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://gepa-ai.github.io/gepa/](https://gepa-ai.github.io/gepa/)
+- GitHub: [https://github.com/gepa-ai/gepa](https://github.com/gepa-ai/gepa)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/041-gepa)
 
-## Notes
+## Tested at
 
 TBD

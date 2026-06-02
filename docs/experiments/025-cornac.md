@@ -14,33 +14,27 @@ Personalization & Recommendation Systems
 
 ## Problem
 
+It is difficult to include text, image, and social features in recommendation models.
+
+## How Cornac helps
+
+Provides a comparative framework for multimodal recommender systems.
+
+## Test project
+
+Fashion recommender using product images, descriptions, and user interactions.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://cornac.readthedocs.io/](https://cornac.readthedocs.io/)
+- GitHub: [https://github.com/PreferredAI/cornac](https://github.com/PreferredAI/cornac)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/025-cornac)
 
-## Notes
+## Tested at
 
 TBD

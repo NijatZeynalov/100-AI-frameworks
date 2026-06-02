@@ -14,33 +14,27 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
+Complex PDFs, tables, scanned documents, and formatted reports do not work well with basic chunking.
+
+## How RAGFlow helps
+
+Provides a deep document understanding-based open-source RAG engine with citations, parsing, and enterprise RAG workflows.
+
+## Test project
+
+Financial report QA system that answers from PDFs with tables and citations.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://ragflow.io/docs/](https://ragflow.io/docs/)
+- GitHub: [https://github.com/infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/030-ragflow)
 
-## Notes
+## Tested at
 
 TBD

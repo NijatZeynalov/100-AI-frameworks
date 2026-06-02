@@ -7,7 +7,5 @@
 - Docs: TBD
 - DX: TBD
 - Output quality: TBD
-- Debuggability: TBD
 - Production potential: TBD
-- Hiring signal: TBD
 - Final verdict: TBD

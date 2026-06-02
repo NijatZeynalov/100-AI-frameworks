@@ -14,33 +14,27 @@ Model Optimization & Compression
 
 ## Problem
 
+1-bit and ternary LLMs need a dedicated efficient inference framework.
+
+## How BitNet.cpp helps
+
+Provides the official inference framework inside Microsoft's BitNet repository for 1-bit LLM inference, benchmarking, and deployment.
+
+## Test project
+
+Run the BitNet b1.58 model on CPU and compare it with a normal quantized model.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://bitnet.live/](https://bitnet.live/)
+- GitHub: [https://github.com/microsoft/BitNet](https://github.com/microsoft/BitNet)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/035-bitnet-cpp)
 
-## Notes
+## Tested at
 
 TBD

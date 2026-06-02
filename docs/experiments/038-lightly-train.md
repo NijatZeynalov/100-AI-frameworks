@@ -14,33 +14,27 @@ Computer Vision Frameworks
 
 ## Problem
 
+Computer vision teams need a practical way to pretrain, fine-tune, and distill vision models on their own data.
+
+## How LightlyTrain helps
+
+Provides an all-in-one training framework for vision models including DINOv2/DINOv3, YOLO, RT-DETR, and transformer-based workflows.
+
+## Test project
+
+Pretrain or fine-tune a detector on a custom visual dataset and compare baseline versus adapted model behavior.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.lightly.ai/train/](https://docs.lightly.ai/train/)
+- GitHub: [https://github.com/lightly-ai/lightly-train](https://github.com/lightly-ai/lightly-train)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/038-lightly-train)
 
-## Notes
+## Tested at
 
 TBD

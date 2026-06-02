@@ -14,33 +14,27 @@ Personalization & Recommendation Systems
 
 ## Problem
 
+Search, vector retrieval, and ranking personalization are often built in separate systems.
+
+## How Vespa helps
+
+Provides a scalable engine for search, vector search, tensor ranking, and recommendation serving.
+
+## Test project
+
+Personalized news search with user embeddings and query-time ranking features.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://vespa.ai/](https://vespa.ai/)
+- GitHub: [https://github.com/vespa-engine/vespa](https://github.com/vespa-engine/vespa)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/026-vespa)
 
-## Notes
+## Tested at
 
 TBD

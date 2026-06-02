@@ -14,33 +14,27 @@ Model Optimization & Compression
 
 ## Problem
 
+Deep learning teams need a practical way to quantize models while tracking accuracy and latency tradeoffs.
+
+## How AIMET helps
+
+Provides quantization simulation, post-training quantization, quantization-aware training, mixed precision, and export workflows for PyTorch and ONNX models.
+
+## Test project
+
+Quantize a PyTorch or ONNX vision model with AIMET and compare accuracy, latency, and exported model behavior.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://quic.github.io/aimet-pages/releases/latest/overview/index.html](https://quic.github.io/aimet-pages/releases/latest/overview/index.html)
+- GitHub: [https://github.com/quic/aimet](https://github.com/quic/aimet)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/045-aimet)
 
-## Notes
+## Tested at
 
 TBD

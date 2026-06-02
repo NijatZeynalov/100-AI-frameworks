@@ -14,33 +14,27 @@ Agentic AI & Agent Memory
 
 ## Problem
 
+Agents struggle to manage long-term behavior, core memory, and archival memory.
+
+## How Letta helps
+
+Provides a platform for building stateful agents with memory blocks, archival memory, and self-improving behavior.
+
+## Test project
+
+Coding mentor agent that remembers user's code style, weak areas, and learning plan.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.letta.com/](https://docs.letta.com/)
+- GitHub: [https://github.com/letta-ai/letta](https://github.com/letta-ai/letta)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/005-letta)
 
-## Notes
+## Tested at
 
 TBD

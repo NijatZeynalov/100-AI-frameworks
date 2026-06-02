@@ -14,33 +14,27 @@ LoRA, Fine-tuning & Adapter Infrastructure
 
 ## Problem
 
+Training many domain adapters can create GPU utilization and latency problems.
+
+## How m-LoRA helps
+
+Focuses on fine-tuning many LoRA/QLoRA adapters at the same time on one base model.
+
+## Test project
+
+Train three adapters for the same base model: legal, finance, and customer support.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://ids-lab-asia.github.io/projects/m-LoRA/](https://ids-lab-asia.github.io/projects/m-LoRA/)
+- GitHub: [https://github.com/small-thinking/multi-lora-fine-tune](https://github.com/small-thinking/multi-lora-fine-tune)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/017-m-lora)
 
-## Notes
+## Tested at
 
 TBD

@@ -14,33 +14,27 @@ Agentic AI & Agent Memory
 
 ## Problem
 
+Agents may store memory but fail to update a useful user model through reasoning.
+
+## How Honcho helps
+
+Provides a reasoning memory layer for stateful agents across people, projects, sessions, and ideas.
+
+## Test project
+
+Personal productivity assistant that learns communication style and project priorities.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://honcho.dev/](https://honcho.dev/)
+- GitHub: [https://github.com/plastic-labs/honcho](https://github.com/plastic-labs/honcho)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/020-honcho)
 
-## Notes
+## Tested at
 
 TBD

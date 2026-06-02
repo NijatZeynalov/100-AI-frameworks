@@ -16,31 +16,25 @@ Category Name
 
 TBD
 
-## What it does
+## How Framework Name helps
 
 TBD
 
-## Planned project
+## Test project
 
 TBD
 
-## Why this framework
+## Experiment findings
 
 TBD
 
-## Current status
+## What worked
 
-This experiment has not been run yet. Status: Pending.
+TBD
 
-## Planned evaluation criteria
+## Limitations
 
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
+TBD
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
 - Official docs: TBD
 - GitHub: TBD
-- Weekly log: Not assigned yet
 - Experiment folder: GitHub folder link
 
-## Notes
+## Tested at
 
 TBD

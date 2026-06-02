@@ -14,33 +14,27 @@ Knowledge Base, RAG & Document Intelligence
 
 ## Problem
 
+LLM apps, RAG pipelines, workflows, agents, and observability are often built separately.
+
+## How Dify helps
+
+Provides an open-source LLM app platform with knowledge bases, RAG, agent workflows, model management, and observability.
+
+## Test project
+
+Internal company policy assistant with uploaded PDFs, workflow routing, and citation-backed answers.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://docs.dify.ai/](https://docs.dify.ai/)
+- GitHub: [https://github.com/langgenius/dify](https://github.com/langgenius/dify)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/029-dify)
 
-## Notes
+## Tested at
 
 TBD

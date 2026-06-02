@@ -14,33 +14,27 @@ Agentic AI & Agent Memory
 
 ## Problem
 
+Proactive 24/7 agents often fail to structure user routines and long-term preferences.
+
+## How memU helps
+
+Extracts structured memory from multimodal inputs and creates a hierarchical memory file system.
+
+## Test project
+
+Proactive daily assistant that remembers routines, documents, images, and recurring preferences.
+
+## Experiment findings
+
 TBD
 
-## What it does
+## What worked
 
 TBD
 
-## Planned project
+## Limitations
 
 TBD
-
-## Why this framework
-
-TBD
-
-## Current status
-
-This experiment has not been run yet. Status: Pending.
-
-## Planned evaluation criteria
-
-- Setup experience
-- Documentation quality
-- Developer experience
-- Output quality
-- Debuggability
-- Production readiness
-- Hiring signal
 
 ## Scorecard
 
@@ -50,17 +44,18 @@ This experiment has not been run yet. Status: Pending.
 | Documentation Quality | TBD |
 | Developer Experience | TBD |
 | Output Quality | TBD |
-| Debuggability | TBD |
 | Production Readiness | TBD |
-| Hiring Signal | TBD |
+
+## Final verdict
+
+TBD
 
 ## Links
 
-- Official docs: TBD
-- GitHub: TBD
-- Weekly log: Not assigned yet
+- Official docs: [https://github.com/NevaMind-AI/MemU](https://github.com/NevaMind-AI/MemU)
+- GitHub: [https://github.com/NevaMind-AI/MemU](https://github.com/NevaMind-AI/MemU)
 - Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/021-memu)
 
-## Notes
+## Tested at
 
 TBD
