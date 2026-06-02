@@ -445,10 +445,20 @@ body.homepage .col-md-9[role="main"] {
 .logo-marquee {
   border-bottom: 1px solid rgba(220, 231, 245, 0.78);
   border-top: 1px solid rgba(220, 231, 245, 0.78);
+  opacity: 0;
   overflow: hidden;
   padding: 16px 0;
+  transform: translateY(4px);
+  transition:
+    opacity 220ms ease,
+    transform 220ms ease;
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+}
+
+.logo-marquee.is-ready {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .logo-marquee-track {

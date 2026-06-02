@@ -133,14 +133,14 @@ function buildLogoMarquee() {
     .map((file) => {
       const slug = path.basename(file, ".png");
       const name = frameworkBySlug.get(slug)?.name || slug.replace(/^\d{3}-/, "").replace(/-/g, " ");
-      return `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="${htmlEscape(name)} logo" loading="lazy" /></span>`;
+      return `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="${htmlEscape(name)} logo" loading="eager" decoding="async" /></span>`;
     })
     .join("\n      ");
 
   const duplicateItems = logoFiles
     .map(
       (file) =>
-        `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="" loading="lazy" /></span>`,
+        `<span class="logo-marquee-item"><img src="assets/logos/${htmlEscape(file)}" alt="" loading="eager" decoding="async" /></span>`,
     )
     .join("\n      ");
 
