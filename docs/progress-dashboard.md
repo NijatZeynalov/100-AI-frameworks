@@ -2,13 +2,13 @@
 
 - Total target: 100
 - Currently selected: 49
-- Pending: 49
-- Tested: 0
+- Pending: 48
+- Tested: 1
 - Categories covered: 9
 
 | # | Framework | Category | Status | Planned project | Official Docs | GitHub | Experiment Page |
 |---|---|---|---|---|---|---|---|
-| 001 | LangMem | Agentic AI & Agent Memory | Pending | Personal AI career coach that remembers user goals, preferred roles, rejected companies, and interview feedback. | [Official](https://langchain-ai.github.io/langmem/) | [GitHub](https://github.com/langchain-ai/langmem) | [Page](experiments/001-langmem.md) |
+| 001 | LangMem | Agentic AI & Agent Memory | Tested | Doctor-facing clinical memory assistant with patient creation, SOAP draft generation, memory candidate extraction, human review, returning-patient Q&A, and memory updates. | [Official](https://langchain-ai.github.io/langmem/) | [GitHub](https://github.com/langchain-ai/langmem) | [Page](experiments/001-langmem.md) |
 | 002 | Mem0 | Agentic AI & Agent Memory | Pending | Customer support assistant that remembers customer preferences, prior tickets, and unresolved issues. | [Official](https://docs.mem0.ai/introduction) | [GitHub](https://github.com/mem0ai/mem0) | [Page](experiments/002-mem0.md) |
 | 003 | Zep | Agentic AI & Agent Memory | Pending | Enterprise account assistant that tracks relationship changes, meetings, objections, and next actions. | [Official](https://www.getzep.com/) | [GitHub](https://github.com/getzep/graphiti) | [Page](experiments/003-zep.md) |
 | 004 | Graphiti | Agentic AI & Agent Memory | Pending | Meeting intelligence system that tracks how project decisions change over time. | [Official](https://help.getzep.com/graphiti/getting-started/welcome) | [GitHub](https://github.com/getzep/graphiti) | [Page](experiments/004-graphiti.md) |

@@ -22,8 +22,8 @@
 <section class="metric-grid">
   <article><strong>100</strong><span>target frameworks</span></article>
   <article><strong>49</strong><span>selected</span></article>
-  <article><strong>49</strong><span>pending</span></article>
-  <article><strong>0</strong><span>tested</span></article>
+  <article><strong>48</strong><span>pending</span></article>
+  <article><strong>1</strong><span>tested</span></article>
   <article><strong>9</strong><span>categories</span></article>
 </section>
 

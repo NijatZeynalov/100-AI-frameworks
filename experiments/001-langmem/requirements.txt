@@ -1,0 +1,15 @@
+torch
+transformers
+accelerate
+huggingface_hub
+pillow
+safetensors
+sentencepiece
+protobuf
+langmem
+langgraph
+langchain-core
+python-dotenv
+pydantic
+fastapi
+uvicorn

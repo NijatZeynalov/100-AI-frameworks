@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedGemma LangMem Patient Memory</title>
+  <style>
+    :root {
+      --bg: #f6f8f7;
+      --panel: #ffffff;
+      --line: #d4ddda;
+      --text: #17201d;
+      --muted: #62716d;
+      --primary: #08786f;
+      --primary-dark: #06645d;
+      --danger: #9d3434;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    header {
+      height: 56px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+    h1 { margin: 0; font-size: 18px; }
+    h2 { margin: 0 0 14px; font-size: 18px; }
+    h3 { margin: 18px 0 8px; font-size: 14px; color: var(--muted); }
+    .app {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      min-height: calc(100vh - 56px);
+    }
+    .sidebar {
+      border-right: 1px solid var(--line);
+      background: #fbfcfc;
+      padding: 14px;
+    }
+    .main { padding: 18px; max-width: 980px; width: 100%; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 6px;
+      padding: 9px 12px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .tab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .panel {
+      display: none;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 16px;
+    }
+    .panel.active { display: block; }
+    .patient {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 8px;
+      background: #fff;
+      cursor: pointer;
+    }
+    .patient.active { border-color: var(--primary); box-shadow: inset 3px 0 0 var(--primary); }
+    .patient strong { display: block; margin-bottom: 4px; }
+    label { display: block; font-weight: 700; margin: 10px 0 5px; }
+    input, textarea, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px;
+      font: inherit;
+      background: #fff;
+    }
+    textarea { min-height: 120px; resize: vertical; line-height: 1.35; }
+    button {
+      border: 1px solid var(--primary);
+      background: var(--primary);
+      color: #fff;
+      border-radius: 6px;
+      min-height: 36px;
+      padding: 8px 12px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button.secondary { background: #fff; color: var(--primary-dark); }
+    button.danger { border-color: var(--danger); background: #fff; color: var(--danger); }
+    button:disabled { opacity: 0.55; cursor: wait; }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .output {
+      white-space: pre-wrap;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+      min-height: 90px;
+      background: #fbfcfc;
+      line-height: 1.4;
+    }
+    .item {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      margin-bottom: 8px;
+      background: #fff;
+    }
+    .item strong { display: block; margin-bottom: 5px; }
+    .meta { color: var(--muted); font-size: 12px; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .status { color: var(--muted); }
+    @media (max-width: 900px) {
+      .app { grid-template-columns: 1fr; }
+      .sidebar { border-right: 0; border-bottom: 1px solid var(--line); }
+      .row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MedGemma + LangMem</h1>
+    <div class="status" id="status">Loading</div>
+  </header>
+  <div class="app">
+    <aside class="sidebar">
+      <h3>Patients</h3>
+      <div id="patients"></div>
+    </aside>
+
+    <main class="main">
+      <div class="tabs">
+        <button class="tab active" data-tab="newVisit">1 New Patient Visit</button>
+        <button class="tab" data-tab="returning">2 Returning Patient</button>
+        <button class="tab" data-tab="review">3 Memory Review</button>
+      </div>
+
+      <section class="panel active" id="newVisit">
+        <h2>Create Patient, Write Note, Extract Memory</h2>
+        <div class="row">
+          <div>
+            <label>Full name</label>
+            <input id="newName" placeholder="Murad Aliyev">
+          </div>
+          <div>
+            <label>Age</label>
+            <input id="newAge" type="number" placeholder="52">
+          </div>
+        </div>
+        <label>Gender</label>
+        <input id="newGender" placeholder="male">
+        <label>Basic history</label>
+        <input id="newHistory" placeholder="Hypertension">
+        <label>Allergies</label>
+        <input id="newAllergies" placeholder="Penicillin">
+        <label>Medications</label>
+        <input id="newMeds" placeholder="Amlodipine 5mg">
+        <button id="createPatientBtn">Create Patient</button>
+
+        <h3>Doctor Note</h3>
+        <textarea id="newNote" placeholder="Write the current visit note..."></textarea>
+        <button id="newVisitBtn">Generate SOAP and Memory Candidates</button>
+        <h3>SOAP Draft</h3>
+        <div class="output" id="newSoap">No SOAP generated yet.</div>
+      </section>
+
+      <section class="panel" id="returning">
+        <h2>Returning Patient</h2>
+        <button id="historyBtn">Load Patient History</button>
+        <h3>History From LangMem</h3>
+        <div class="output" id="historyOutput">Select a patient, then load history.</div>
+
+        <h3>Ask Assistant</h3>
+        <input id="question" placeholder="What happened last visit?">
+        <button id="askBtn">Ask</button>
+        <div class="output" id="answerOutput">No answer yet.</div>
+
+        <h3>New Doctor Note</h3>
+        <textarea id="returnNote" placeholder="Write updated note for existing patient..."></textarea>
+        <button id="returnVisitBtn">Generate SOAP and Update Memory Candidates</button>
+        <h3>SOAP Draft</h3>
+        <div class="output" id="returnSoap">No SOAP generated yet.</div>
+      </section>
+
+      <section class="panel" id="review">
+        <h2>Approve Memory Candidates</h2>
+        <h3>Pending Candidates</h3>
+        <div id="pending"></div>
+        <h3>Approved / Active LangMem Memories</h3>
+        <div id="memories"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const state = { patientId: null, doctorId: "doctor_001" };
+    const el = id => document.getElementById(id);
+
+    function setStatus(text) { el("status").textContent = text; }
+    function setBusy(busy) {
+      document.querySelectorAll("button").forEach(btn => btn.disabled = busy);
+      setStatus(busy ? "MedGemma is working" : "Ready");
+    }
+    function showTab(id) {
+      document.querySelectorAll(".tab").forEach(btn => btn.classList.toggle("active", btn.dataset.tab === id));
+      document.querySelectorAll(".panel").forEach(panel => panel.classList.toggle("active", panel.id === id));
+    }
+    document.querySelectorAll(".tab").forEach(btn => btn.onclick = () => showTab(btn.dataset.tab));
+
+    async function request(path, body) {
+      setBusy(true);
+      try {
+        const res = await fetch(path, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body)
+        });
+        const text = await res.text();
+        if (!res.ok) throw new Error(text);
+        return JSON.parse(text);
+      } finally {
+        setBusy(false);
+      }
+    }
+
+    async function loadState() {
+      const qs = state.patientId ? `?patient_id=${state.patientId}&doctor_id=${state.doctorId}` : "";
+      const res = await fetch(`/api/state${qs}`);
+      const data = await res.json();
+      if (!state.patientId && data.patient) state.patientId = data.patient.patient_id;
+      renderPatients(data.patients);
+      renderPending(data.pending);
+      renderMemories(data.memories);
+      setStatus("Ready");
+    }
+
+    function renderPatients(patients) {
+      el("patients").innerHTML = patients.length ? patients.map(p => `
+        <div class="patient ${p.patient_id === state.patientId ? "active" : ""}" onclick="selectPatient('${p.patient_id}')">
+          <strong>${p.full_name}</strong>
+          <div class="meta">${p.age} | ${p.preview}</div>
+        </div>`).join("") : `<div class="meta">No patients yet.</div>`;
+    }
+    async function selectPatient(id) {
+      state.patientId = id;
+      await loadState();
+      showTab("returning");
+    }
+    function renderPending(items) {
+      el("pending").innerHTML = items.length ? items.map(c => `
+        <div class="item">
+          <strong>${c.summary}</strong>
+          <div class="meta">${c.memory_type} | ${c.confidence} | supersedes: ${c.supersedes_query || "none"}</div>
+          <div class="actions">
+            <button onclick="review('${c.candidate_id}', 'approve')">Approve</button>
+            <button class="danger" onclick="review('${c.candidate_id}', 'reject')">Reject</button>
+          </div>
+        </div>`).join("") : `<div class="meta">No pending candidates.</div>`;
+    }
+    function renderMemories(items) {
+      el("memories").innerHTML = items.length ? items.map(m => `
+        <div class="item">
+          <strong>${m.summary}</strong>
+          <div class="meta">${m.memory_type} | ${m.verification_status} | ${m.active_status}</div>
+        </div>`).join("") : `<div class="meta">No approved memories yet.</div>`;
+    }
+
+    el("createPatientBtn").onclick = async () => {
+      const data = await request("/api/patients", {
+        full_name: el("newName").value,
+        age: Number(el("newAge").value),
+        gender: el("newGender").value,
+        basic_history: el("newHistory").value,
+        allergies: el("newAllergies").value,
+        medications: el("newMeds").value,
+        active_conditions: el("newHistory").value
+      });
+      state.patientId = data.patient.patient_id;
+      await loadState();
+    };
+
+    async function submitVisit(noteId, soapId) {
+      if (!state.patientId) throw new Error("Create or select a patient first.");
+      const data = await request("/api/visit", {
+        patient_id: state.patientId,
+        doctor_id: state.doctorId,
+        note: el(noteId).value
+      });
+      el(soapId).textContent = data.soap;
+      await loadState();
+      showTab("review");
+    }
+    el("newVisitBtn").onclick = () => submitVisit("newNote", "newSoap");
+    el("returnVisitBtn").onclick = () => submitVisit("returnNote", "returnSoap");
+
+    el("historyBtn").onclick = async () => {
+      if (!state.patientId) throw new Error("Select a patient first.");
+      const data = await request("/api/summary", { patient_id: state.patientId, doctor_id: state.doctorId });
+      el("historyOutput").textContent = data.summary;
+    };
+    el("askBtn").onclick = async () => {
+      const data = await request("/api/ask", {
+        patient_id: state.patientId,
+        doctor_id: state.doctorId,
+        question: el("question").value
+      });
+      el("answerOutput").textContent = data.answer;
+    };
+    async function review(candidateId, action) {
+      await request("/api/review", { candidate_id: candidateId, action });
+      await loadState();
+    }
+    loadState();
+  </script>
+</body>
+</html>

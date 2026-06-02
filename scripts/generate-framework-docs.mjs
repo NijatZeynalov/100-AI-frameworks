@@ -306,8 +306,18 @@ const expIndexRows = frameworks
   .join("\n");
 writeFile(path.join(repoRoot, "docs", "experiments", "index.md"), `# Experiments\n\n${expIndexRows}\n`);
 
-for (const framework of frameworks) {
-  const docsPage = `# ${framework.experiment_number} - ${framework.name}
+function markdownList(items, fallback = "TBD") {
+  if (!Array.isArray(items) || items.length === 0) return fallback;
+  return items.map((item) => `- ${item}`).join("\n");
+}
+
+function scorecardValue(scorecard, key) {
+  const value = scorecard?.[key];
+  return value == null || value === "" ? "TBD" : String(value);
+}
+
+function buildPendingExperimentPage(framework) {
+  return `# ${framework.experiment_number} - ${framework.name}
 
 ## Status
 
@@ -374,44 +384,147 @@ This experiment has not been run yet. Status: ${framework.status}.
 
 TBD
 `;
-  writeFile(path.join(repoRoot, "docs", "experiments", `${framework.slug}.md`), docsPage);
+}
 
-  writeFile(
-    path.join(repoRoot, "experiments", framework.slug, "README.md"),
-    `# ${framework.experiment_number} - ${framework.name}\n\nStatus: ${framework.status}\n\nDocs page: ../../docs/experiments/${framework.slug}.md\n`,
-  );
-  writeFile(path.join(repoRoot, "experiments", framework.slug, "code", ".gitkeep"), "");
-  writeFile(path.join(repoRoot, "experiments", framework.slug, "data", ".gitkeep"), "");
-  writeFile(path.join(repoRoot, "experiments", framework.slug, "screenshots", ".gitkeep"), "");
+function buildTestedExperimentPage(framework) {
+  const scorecard = framework.scorecard || {};
+  const projectName = framework.project_name || framework.sample_project || framework.name;
+  return `# ${framework.experiment_number} - ${framework.name}
 
-  const results = {
+## Status
+
+${framework.status}
+
+## Project
+
+${projectName}
+
+## Category
+
+${framework.primary_category}
+
+## Tags
+
+\`#100AIFrameworks\`, \`#${framework.primary_category_slug}\`
+
+## Problem
+
+${framework.problem_solved || "TBD"}
+
+## What it does
+
+${framework.what_it_does || "TBD"}
+
+## Built project
+
+${framework.project_summary || framework.sample_project || "TBD"}
+
+## Stack
+
+${markdownList(framework.project_stack)}
+
+## Experiment findings
+
+${markdownList(framework.experiment_findings)}
+
+## What worked
+
+${markdownList(framework.what_worked)}
+
+## Limitations
+
+${markdownList(framework.limitations)}
+
+## Production notes
+
+${markdownList(framework.production_notes)}
+
+## Before / After
+
+${framework.before_after_angle || "TBD"}
+
+## Scorecard
+
+| Criteria | Score |
+|---|---|
+| Setup Experience | ${scorecardValue(scorecard, "setup_experience")} |
+| Documentation Quality | ${scorecardValue(scorecard, "documentation_quality")} |
+| Developer Experience | ${scorecardValue(scorecard, "developer_experience")} |
+| Output Quality | ${scorecardValue(scorecard, "output_quality")} |
+| Debuggability | ${scorecardValue(scorecard, "debuggability")} |
+| Production Readiness | ${scorecardValue(scorecard, "production_readiness")} |
+| Hiring Signal | ${scorecardValue(scorecard, "hiring_signal")} |
+
+## Final verdict
+
+${framework.final_verdict || "TBD"}
+
+## Links
+
+- Official docs: ${framework.docs_url ? `[${framework.docs_url}](${framework.docs_url})` : "TBD"}
+- GitHub: ${framework.github_url ? `[${framework.github_url}](${framework.github_url})` : "TBD"}
+- Experiment folder: [GitHub folder](https://github.com/NijatZeynalov/100-AI-frameworks/tree/main/experiments/${framework.slug})
+
+## Tested at
+
+${framework.tested_at || "TBD"}
+`;
+}
+
+function buildExperimentResults(framework) {
+  const result = {
     framework: framework.name,
     slug: framework.slug,
     status: framework.status,
     category: framework.primary_category,
-    tested_at: null,
-    published_at: null,
-    linkedin_url: null,
-    newsletter_url: null,
-    experiment_url: null,
+    tested_at: framework.tested_at || null,
+    published_at: framework.published_at || null,
+    linkedin_url: framework.linkedin_url || null,
+    newsletter_url: framework.newsletter_url || null,
+    experiment_url: framework.experiment_url || null,
     scorecard: {
-      setup_experience: null,
-      documentation_quality: null,
-      developer_experience: null,
-      output_quality: null,
-      debuggability: null,
-      production_readiness: null,
-      before_after_value: null,
-      hiring_signal: null,
+      setup_experience: framework.scorecard?.setup_experience ?? null,
+      documentation_quality: framework.scorecard?.documentation_quality ?? null,
+      developer_experience: framework.scorecard?.developer_experience ?? null,
+      output_quality: framework.scorecard?.output_quality ?? null,
+      debuggability: framework.scorecard?.debuggability ?? null,
+      production_readiness: framework.scorecard?.production_readiness ?? null,
+      before_after_value: framework.scorecard?.before_after_value ?? null,
+      hiring_signal: framework.scorecard?.hiring_signal ?? null,
     },
     results: {
-      summary: null,
-      what_worked: [],
-      what_failed: [],
-      production_notes: [],
-      final_verdict: null,
+      summary: framework.project_summary || null,
+      what_worked: framework.what_worked || [],
+      what_failed: framework.limitations || [],
+      production_notes: framework.production_notes || [],
+      final_verdict: framework.final_verdict || null,
     },
   };
+  if (framework.project_name) {
+    result.project_name = framework.project_name;
+  }
+  if (framework.experiment_findings) {
+    result.results.findings = framework.experiment_findings;
+  }
+  return result;
+}
+
+for (const framework of frameworks) {
+  const docsPage =
+    framework.status === "Tested" ? buildTestedExperimentPage(framework) : buildPendingExperimentPage(framework);
+  writeFile(path.join(repoRoot, "docs", "experiments", `${framework.slug}.md`), docsPage);
+
+  if (!framework.custom_experiment) {
+    writeFile(
+      path.join(repoRoot, "experiments", framework.slug, "README.md"),
+      `# ${framework.experiment_number} - ${framework.name}\n\nStatus: ${framework.status}\n\nDocs page: ../../docs/experiments/${framework.slug}.md\n`,
+    );
+    writeFile(path.join(repoRoot, "experiments", framework.slug, "code", ".gitkeep"), "");
+    writeFile(path.join(repoRoot, "experiments", framework.slug, "data", ".gitkeep"), "");
+    writeFile(path.join(repoRoot, "experiments", framework.slug, "screenshots", ".gitkeep"), "");
+  }
+
+  const results = buildExperimentResults(framework);
   writeFile(
     path.join(repoRoot, "experiments", framework.slug, "results.json"),
     `${JSON.stringify(results, null, 2)}\n`,

@@ -12,7 +12,7 @@ Persistent memory, browser actions, temporal context graphs, and automation loop
 
 | # | Framework | Status | Planned project | Docs Page |
 |---|---|---|---|---|
-| 001 | LangMem | Pending | Personal AI career coach that remembers user goals, preferred roles, rejected companies, and interview feedback. | [Experiment](../experiments/001-langmem.md) |
+| 001 | LangMem | Tested | Doctor-facing clinical memory assistant with patient creation, SOAP draft generation, memory candidate extraction, human review, returning-patient Q&A, and memory updates. | [Experiment](../experiments/001-langmem.md) |
 | 002 | Mem0 | Pending | Customer support assistant that remembers customer preferences, prior tickets, and unresolved issues. | [Experiment](../experiments/002-mem0.md) |
 | 003 | Zep | Pending | Enterprise account assistant that tracks relationship changes, meetings, objections, and next actions. | [Experiment](../experiments/003-zep.md) |
 | 004 | Graphiti | Pending | Meeting intelligence system that tracks how project decisions change over time. | [Experiment](../experiments/004-graphiti.md) |

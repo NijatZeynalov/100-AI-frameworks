@@ -1,28 +1,55 @@
 {
   "framework": "LangMem",
   "slug": "001-langmem",
-  "status": "Pending",
+  "status": "Tested",
   "category": "Agentic AI & Agent Memory",
-  "tested_at": null,
+  "tested_at": "2026-06-02",
   "published_at": null,
   "linkedin_url": null,
   "newsletter_url": null,
   "experiment_url": null,
   "scorecard": {
-    "setup_experience": null,
-    "documentation_quality": null,
-    "developer_experience": null,
-    "output_quality": null,
-    "debuggability": null,
-    "production_readiness": null,
-    "before_after_value": null,
-    "hiring_signal": null
+    "setup_experience": "7/10",
+    "documentation_quality": "8/10",
+    "developer_experience": "8/10",
+    "output_quality": "8/10",
+    "debuggability": "7/10",
+    "production_readiness": "6/10",
+    "before_after_value": "9/10",
+    "hiring_signal": "9/10"
   },
   "results": {
-    "summary": null,
-    "what_worked": [],
-    "what_failed": [],
-    "production_notes": [],
-    "final_verdict": null
-  }
+    "summary": "Built a FastAPI demo where a doctor creates a patient, writes a visit note, gets a MedGemma SOAP draft, reviews LangMem memory candidates, approves or rejects them, and later retrieves patient-specific memory for follow-up questions and updated visits.",
+    "what_worked": [
+      "Patient-scoped LangMem namespaces kept memories isolated between patients.",
+      "Human-in-the-loop review made the clinical memory workflow safer and more understandable.",
+      "Typed Pydantic schemas gave structure to otherwise free-form memory extraction.",
+      "The same memory layer supported SOAP drafting, patient history summaries, doctor Q&A, and memory update flows.",
+      "Separating short-term visit summary from long-term approved memory kept the workflow clearer."
+    ],
+    "what_failed": [
+      "All patients, visits, candidates, and memories are runtime-only; restarting the server clears the demo state.",
+      "MedGemma access requires a Hugging Face token and accepted gated model terms.",
+      "The extraction flow still depends on LLM JSON reliability, so schema repair and physician review remain necessary.",
+      "The demo has no authentication, authorization, audit trail, encryption, or PHI-safe persistence.",
+      "The test flow depends on the local model path and is not yet split into fast mocked tests and slower model-backed tests."
+    ],
+    "production_notes": [
+      "Replace InMemoryStore with a persistent, auditable store before production use.",
+      "Add authentication, role-based access, encryption, audit logs, and explicit PHI handling policies.",
+      "Keep the doctor approval step for extracted memories; do not auto-activate AI-extracted clinical facts.",
+      "Add deterministic mock tests for memory workflow logic and separate integration tests for model-backed extraction.",
+      "Track memory provenance and superseding/correction history as first-class clinical safety metadata."
+    ],
+    "final_verdict": "LangMem is a strong fit for domain-scoped agent memory when the application owns the safety workflow around it. For clinical-style use cases, the valuable pattern is patient-scoped memory plus human approval, not automatic memory persistence. The framework is promising for serious engineering work, but production readiness depends on persistence, auditability, access control, and evaluation around the memory extraction layer.",
+    "findings": [
+      "LangMem fits well as an explicit long-term memory layer when memory is scoped by patient namespace instead of being treated as global chat history.",
+      "The most useful pattern was not automatic memory writing, but candidate extraction followed by doctor approval before a memory becomes active.",
+      "Wrapping LangMem records with domain metadata made the memory layer easier to reason about: verification status, confidence, source type, visit id, and active/superseded state were all important.",
+      "Memory search worked naturally for returning-patient questions and pre-visit summaries once patient profile and approved visit memories were stored.",
+      "Memory updates require application-level policy. Superseding an old medication or clinical fact needs explicit metadata and matching logic, not only semantic recall.",
+      "The demo proves the workflow, but the default InMemoryStore is runtime-only and should be replaced before any serious deployment."
+    ]
+  },
+  "project_name": "Clinical Memory Assistant"
 }
